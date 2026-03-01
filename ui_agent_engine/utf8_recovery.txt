@@ -1,0 +1,245 @@
+﻿[UIAgent] Initializing agent modules...
+[ActionPredictor] Bootstrapping Memory from C:\Users\HP\Downloads\ui agent\agent_memory\predicted_outputs\gui_map_1772187314.json...
+[ActionPredictor] Bootstrap Complete: 243 templates cached in RAM.
+
+--- Starting Telegram Web Test ---
+[UIAgent] Starting execution loop...
+[ActionPredictor] Predicting parameters for click on 'Google Chrome icon'
+[ActionPredictor] Target 'Google Chrome icon' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 0.98 >= 0.85. Fast Coords: (801, 745)
+[UIAgent] Executing click with {'x': 801, 'y': 745}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192916030.png -> agent_memory/screenshots\after_1772192916030.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Google Chrome icon'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Chrome taskbar thumbnail preview'
+[ActionPredictor] Target 'Chrome taskbar thumbnail preview' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Chrome taskbar thumbnail preview' in agent_memory/screenshots\before_1772192926164.png using Spatial Tool
+[ActionPredictor] VLM Found 'Chrome taskbar thumbnail preview' at: L:734, T:686, R:857, B:723
+[UIAgent] Executing click with {'x': 795, 'y': 704}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192926164.png -> agent_memory/screenshots\after_1772192926164.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Chrome taskbar thumbnail preview'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Open Agent Manager window'
+[ActionPredictor] Target 'Open Agent Manager window' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Open Agent Manager window' in agent_memory/screenshots\before_1772192978626.png using Spatial Tool
+[ActionPredictor] VLM Found 'Open Agent Manager window' at: L:1047, T:38, R:1187, B:59
+[UIAgent] Executing click with {'x': 1117, 'y': 48}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192978626.png -> agent_memory/screenshots\after_1772192978626.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Open Agent Manager window'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Open Agent Manager tab'
+[ActionPredictor] Target 'Open Agent Manager tab' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Open Agent Manager tab' in agent_memory/screenshots\before_1772193010270.png using Spatial Tool
+[ActionPredictor] VLM Found 'Open Agent Manager tab' at: L:969, T:8, R:1165, B:27
+[UIAgent] Executing click with {'x': 1067, 'y': 17}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193010270.png -> agent_memory/screenshots\after_1772193010270.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Open Agent Manager tab'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Open Agent Manager tab'
+[ActionPredictor] Target 'Open Agent Manager tab' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 0.96 >= 0.85. Fast Coords: (1067, 17)
+[UIAgent] Executing click with {'x': 1067, 'y': 17}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193031348.png -> agent_memory/screenshots\after_1772193031348.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Open Agent Manager tab'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Open Agent Manager tab'
+[ActionPredictor] Target 'Open Agent Manager tab' found in RAM Cache. Verifying with CV...
+[CV Tracker] STALE 0.30 < 0.85. Element vanished or changed.
+[ActionPredictor] Target 'Open Agent Manager tab' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Open Agent Manager tab' in agent_memory/screenshots\before_1772193053807.png using Spatial Tool
+[ActionPredictor] VLM Found 'Open Agent Manager tab' at: L:958, T:728, R:986, B:757
+[UIAgent] Executing click with {'x': 972, 'y': 742}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193053807.png -> agent_memory/screenshots\after_1772193053807.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Open Agent Manager tab'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'VS Code icon on the taskbar'
+[ActionPredictor] Target 'VS Code icon on the taskbar' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'VS Code icon on the taskbar' in agent_memory/screenshots\before_1772193121085.png using Spatial Tool
+[ActionPredictor] VLM Found 'VS Code icon on the taskbar' at: L:971, T:731, R:983, B:755
+[UIAgent] Executing click with {'x': 977, 'y': 743}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193121085.png -> agent_memory/screenshots\after_1772193121085.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'VS Code icon on the taskbar'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Start button'
+[ActionPredictor] Target 'Start button' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Start button' in agent_memory/screenshots\before_1772193152978.png using Spatial Tool
+[ActionPredictor] VLM Found 'Start button' at: L:379, T:728, R:411, B:759
+[UIAgent] Executing click with {'x': 395, 'y': 743}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193152978.png -> agent_memory/screenshots\after_1772193152978.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 3.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193170939.png -> agent_memory/screenshots\after_1772193170939.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: wait on 'unknown'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Google Chrome icon on taskbar'
+[ActionPredictor] Target 'Google Chrome icon on taskbar' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Google Chrome icon on taskbar' in agent_memory/screenshots\before_1772193188250.png using Spatial Tool
+[ActionPredictor] VLM Found 'Google Chrome icon on taskbar' at: L:782, T:728, R:819, B:757
+[UIAgent] Executing click with {'x': 800, 'y': 742}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193188250.png -> agent_memory/screenshots\after_1772193188250.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Google Chrome icon on taskbar'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'New tab - Google Chrome thumbnail preview'
+[ActionPredictor] Target 'New tab - Google Chrome thumbnail preview' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'New tab - Google Chrome thumbnail preview' in agent_memory/screenshots\before_1772193207605.png using Spatial Tool
+[ActionPredictor] VLM Found 'New tab - Google Chrome thumbnail preview' at: L:471, T:557, R:1117, B:707
+[UIAgent] Executing click with {'x': 794, 'y': 632}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193207605.png -> agent_memory/screenshots\after_1772193207605.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for hotkey on 'None'
+[UIAgent] Executing hotkey with {}
+[LearningLoop] Evaluating success of action: hotkey
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193230353.png -> agent_memory/screenshots\after_1772193230353.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 1.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193235550.png -> agent_memory/screenshots\after_1772193235550.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for type on 'web.telegram.org'
+[UIAgent] Executing type with {'text': 'web.telegram.org'}
+[LearningLoop] Evaluating success of action: type
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193242100.png -> agent_memory/screenshots\after_1772193242100.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for press on 'None'
+[UIAgent] Executing press with {}
+[LearningLoop] Evaluating success of action: press
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193250906.png -> agent_memory/screenshots\after_1772193250906.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: press on 'unknown'. Initiating recovery replan...
+[GoalManager] Successfully injected 2 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'address bar with web.telegram.org'
+[ActionPredictor] Target 'address bar with web.telegram.org' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'address bar with web.telegram.org' in agent_memory/screenshots\before_1772193271297.png using Spatial Tool
+[ActionPredictor] VLM Found 'address bar with web.telegram.org' at: L:116, T:47, R:1096, B:78
+[UIAgent] Executing click with {'x': 606, 'y': 62}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193271297.png -> agent_memory/screenshots\after_1772193271297.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[ActionPredictor] Action failed on 'address bar with web.telegram.org'. Removing from memory.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'address bar with web.telegram.org'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Chrome taskbar thumbnail preview'
+[ActionPredictor] Target 'Chrome taskbar thumbnail preview' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 1.00 >= 0.85. Fast Coords: (795, 704)
+[UIAgent] Executing click with {'x': 795, 'y': 704}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193307125.png -> agent_memory/screenshots\after_1772193307125.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Chrome taskbar thumbnail preview'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Chrome taskbar icon'
+[ActionPredictor] Target 'Chrome taskbar icon' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Chrome taskbar icon' in agent_memory/screenshots\before_1772193323530.png using Spatial Tool
+[ActionPredictor] VLM Found 'Chrome taskbar icon' at: L:777, T:725, R:811, B:763
+[UIAgent] Executing click with {'x': 794, 'y': 744}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193323530.png -> agent_memory/screenshots\after_1772193323530.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Chrome taskbar icon'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Chrome taskbar thumbnail preview'
+[ActionPredictor] Target 'Chrome taskbar thumbnail preview' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 1.00 >= 0.85. Fast Coords: (312, 704)
+[UIAgent] Executing click with {'x': 312, 'y': 704}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193340509.png -> agent_memory/screenshots\after_1772193340509.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Chrome taskbar thumbnail preview'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Chrome icon on taskbar'
+[ActionPredictor] Target 'Chrome icon on taskbar' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Chrome icon on taskbar' in agent_memory/screenshots\before_1772193357866.png using Spatial Tool
+[ActionPredictor] VLM Found 'Chrome icon on taskbar' at: L:781, T:731, R:810, B:758
+[UIAgent] Executing click with {'x': 795, 'y': 744}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193357866.png -> agent_memory/screenshots\after_1772193357866.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: click on 'Chrome icon on taskbar'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'New tab - Google Chrome thumbnail preview'
+[ActionPredictor] Target 'New tab - Google Chrome thumbnail preview' found in RAM Cache. Verifying with CV...
+[CV Tracker] STALE 0.34 < 0.85. Element vanished or changed.
+[ActionPredictor] Target 'New tab - Google Chrome thumbnail preview' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'New tab - Google Chrome thumbnail preview' in agent_memory/screenshots\before_1772193374846.png using Spatial Tool
+[ActionPredictor] VLM Found 'New tab - Google Chrome thumbnail preview' at: L:476, T:562, R:684, B:702
+[UIAgent] Executing click with {'x': 580, 'y': 632}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193374846.png -> agent_memory/screenshots\after_1772193374846.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for press on 'None'
+[UIAgent] Executing press with {}
+[LearningLoop] Evaluating success of action: press
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193389376.png -> agent_memory/screenshots\after_1772193389376.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Triggering Semantic Recovery Replan...
+[GoalManager] Action failed: press on 'unknown'. Initiating recovery replan...
+[GoalManager] Successfully injected 1 recovery tasks into the queue.
+[ActionPredictor] Predicting parameters for click on 'Address bar with current text 'Google''
+[ActionPredictor] Target 'Address bar with current text 'Google'' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Address bar with current text 'Google'' in agent_memory/screenshots\before_1772193417466.png using Spatial Tool
+[ActionPredictor] VLM Found 'Address bar with current text 'Google'' at: L:120, T:44, R:1191, B:79
+[UIAgent] Executing click with {'x': 655, 'y': 61}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772193417466.png -> agent_memory/screenshots\after_1772193417466.png
+[VLM Semantic Eval] Response: YES
+[LearningLoop] Action deemed SUCCESSFUL.
+[UIAgent] Goal completed or execution stopped.

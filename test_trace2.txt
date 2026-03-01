@@ -1,0 +1,1274 @@
+﻿asyncio - DEBUG - Using proactor: IocpProactor
+============================================================
+STEP 1: Setting up API key from config...
+============================================================
+httpcore.connection - DEBUG - connect_tcp.started host='raw.githubusercontent.com' port=443 local_address=None timeout=5 socket_options=None
+httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001ADD8881A90>
+httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001ADD8825130> server_hostname='raw.githubusercontent.com' timeout=5
+httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001ADD88696D0>
+httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+httpcore.http11 - DEBUG - send_request_headers.complete
+httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+httpcore.http11 - DEBUG - send_request_body.complete
+httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Connection', b'keep-alive'), (b'Content-Length', b'67234'), (b'Cache-Control', b'max-age=300'), (b'Content-Security-Policy', b"default-src 'none'; style-src 'unsafe-inline'; sandbox"), (b'Content-Type', b'text/plain; charset=utf-8'), (b'ETag', b'W/"8a4ee1bd6d724d845ada1344b87d2d788baa5e2f37051cc3d6c0c218d1d8cd12"'), (b'Strict-Transport-Security', b'max-age=31536000'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Frame-Options', b'deny'), (b'X-XSS-Protection', b'1; mode=block'), (b'X-GitHub-Request-Id', b'BFF2:383815:254005:2B3EFD:6999503F'), (b'Content-Encoding', b'gzip'), (b'Accept-Ranges', b'bytes'), (b'Date', b'Sat, 21 Feb 2026 20:55:11 GMT'), (b'Via', b'1.1 varnish'), (b'X-Served-By', b'cache-del-vibw2260029-DEL'), (b'X-Cache', b'HIT'), (b'X-Cache-Hits', b'3'), (b'X-Timer', b'S1771707312.752783,VS0,VE0'), (b'Vary', b'Authorization,Accept-Encoding'), (b'Access-Control-Allow-Origin', b'*'), (b'Cross-Origin-Resource-Policy', b'cross-origin'), (b'X-Fastly-Request-ID', b'5659291c982eac1be1d2f3d2588a61a9d9924fd0'), (b'Expires', b'Sat, 21 Feb 2026 21:00:11 GMT'), (b'Source-Age', b'5')])
+httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+httpcore.http11 - DEBUG - receive_response_body.complete
+httpcore.http11 - DEBUG - response_closed.started
+httpcore.http11 - DEBUG - response_closed.complete
+httpcore.connection - DEBUG - close.started
+httpcore.connection - DEBUG - close.complete
+python : [92m02:25:16 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:194 - 
+[Non-Blocking] Unable to 
+import GenericAPILogger - 
+LiteLLM Enterprise Feature 
+- No module named 
+'litellm_enterprise'
+At line:1 char:1
++ python test_llm_debug.py 
+2>&1 | Out-File -Encoding 
+UTF8 test_trace2.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo         
+     : NotSpecified: ([9  
+  2m02:25:16 -...llm_ent   
+ erprise':String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+LiteLLM - DEBUG - [Non-Blocking] Unable to import GenericAPILogger - LiteLLM Enterprise Feature - No module named 'litellm_enterprise'
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:791 - 
+Using AiohttpTransport...
+LiteLLM - DEBUG - Using AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:859 - 
+Creating 
+AiohttpTransport...
+LiteLLM - DEBUG - Creating AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:873 - NEW 
+SESSION: Creating new 
+ClientSession (no shared 
+session provided)
+LiteLLM - DEBUG - NEW SESSION: Creating new ClientSession (no shared session provided)
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:791 - 
+Using AiohttpTransport...
+LiteLLM - DEBUG - Using AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:859 - 
+Creating 
+AiohttpTransport...
+LiteLLM - DEBUG - Creating AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:873 - NEW 
+SESSION: Creating new 
+ClientSession (no shared 
+session provided)
+LiteLLM - DEBUG - NEW SESSION: Creating new ClientSession (no shared session provided)
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:791 - 
+Using AiohttpTransport...
+LiteLLM - DEBUG - Using AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:859 - 
+Creating 
+AiohttpTransport...
+LiteLLM - DEBUG - Creating AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:873 - NEW 
+SESSION: Creating new 
+ClientSession (no shared 
+session provided)
+LiteLLM - DEBUG - NEW SESSION: Creating new ClientSession (no shared session provided)
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:791 - 
+Using AiohttpTransport...
+LiteLLM - DEBUG - Using AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:859 - 
+Creating 
+AiohttpTransport...
+LiteLLM - DEBUG - Creating AiohttpTransport...
+[92m02:25:18 - 
+LiteLLM:DEBUG[0m: 
+http_handler.py:873 - NEW 
+SESSION: Creating new 
+ClientSession (no shared 
+session provided)
+LiteLLM - DEBUG - NEW SESSION: Creating new ClientSession (no shared session provided)
+Set GEMINI_API_KEY = AIz...
+Model: gemini/gemini-2.5-flash
+
+============================================================
+STEP 2: Testing full agent execute_task pipeline...
+============================================================
+nanobot.swarm.state.duckdb_ledger - DEBUG - Initialized DuckDB Ledger schema.
+Agent model: gemini/gemini-2.5-flash
+Executing task: 'Say hello and tell me a joke'...
+nanobot.swarm.state.duckdb_ledger - DEBUG - Inserted execution node: test_task_001
+nanobot.swarm.state.duckdb_ledger - DEBUG - Updated node test_task_001 status to RUNNING
+nanobot.swarm.broker.lmdb_broker - DEBUG - Published to gateway_outbound: 43b11ec3-ee18-4f5e-a799-e8f47f8c26ca
+nanobot.swarm.agents.seeker - DEBUG - Agent coder_01 executing Operational Mode for: 'Say hello and tell me a joke'
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - 
+
+LiteLLM - DEBUG - 
+
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - 
+[92mRequest to 
+litellm:[0m
+LiteLLM - DEBUG - [92mRequest to litellm:[0m
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - [92mlitellm
+.acompletion(model='gemini/
+gemini-2.5-flash', 
+messages=[{'role': 
+'system', 'content': 'You 
+are a specialized swarm 
+agent.\nRole: General 
+Seeker\nDescription: You 
+accomplish generic tasks 
+accurately. Respond 
+clearly and helpfully to 
+the user\'s 
+request.\n\nYou have 
+access to the following 
+callable skills/tools:\n[]\
+n\nCRITICAL EXECUTION 
+PROTOCOL:\nYou do not 
+simply act. You must 
+carefully analyze the 
+objective, the current 
+context, and the 
+historical facts available 
+to you. \nEvery single 
+response you provide MUST 
+strictly follow this exact 
+JSON 
+structure:\n\n```json\n{\n 
+   "analysis": {\n        
+"facts_considered": [\n    
+        "List specific, 
+undeniable facts derived 
+from the objective or 
+prior feedback.",\n        
+    "List any constraints 
+or limitations."\n        
+],\n        
+"focus_points": [\n        
+    "What exactly requires 
+your attention right 
+now?",\n            "What 
+are the highest risk 
+points of the current 
+objective?"\n        ],\n  
+      "rationale": "A 
+paragraph explaining 
+step-by-step why you are 
+making the following 
+decision, tying the facts 
+to the action."\n    },\n  
+  "action": {\n        
+"type": "string (the name 
+of the skill/tool to call, 
+or \'final_answer\')",\n   
+     "parameters": {\n     
+       // The precise 
+arguments to pass to the 
+tool\n        }\n    
+}\n}\n```\n\nFAILURE TO 
+ADHERE TO THIS STRUCTURE 
+SECURELY WILL RESULT IN 
+IMMEDIATE TERMINATION OF 
+THE LOOP.\nYou must always 
+output valid JSON inside 
+the markdown code block. 
+Do not write text outside 
+of the JSON block.\n'}, 
+{'role': 'user', 
+'content': 'Say hello and 
+tell me a joke'}], 
+temperature=0.7)[0m
+LiteLLM - DEBUG - [92mlitellm.acompletion(model='gemini/gemini-2.5-flash', messages=[{'role': 'system', 'content': 'You are a specialized swarm agent.\nRole: General Seeker\nDescription: You accomplish generic tasks accurately. Respond clearly and helpfully to the user\'s request.\n\nYou have access to the following callable skills/tools:\n[]\n\nCRITICAL EXECUTION PROTOCOL:\nYou do not simply act. You must carefully analyze the objective, the current context, and the historical facts available to you. \nEvery single response you provide MUST strictly follow this exact JSON structure:\n\n```json\n{\n    "analysis": {\n        "facts_considered": [\n            "List specific, undeniable facts derived from the objective or prior feedback.",\n            "List any constraints or limitations."\n        ],\n        "focus_points": [\n            "What exactly requires your attention right now?",\n            "What are the highest risk points of the current objective?"\n        ],\n        "rationale": "A paragraph explaining step-by-step why you are making the following decision, tying the facts to the action."\n    },\n    "action": {\n        "type": "string (the name of the skill/tool to call, or \'final_answer\')",\n        "parameters": {\n            // The precise arguments to pass to the tool\n        }\n    }\n}\n```\n\nFAILURE TO ADHERE TO THIS STRUCTURE SECURELY WILL RESULT IN IMMEDIATE TERMINATION OF THE LOOP.\nYou must always output valid JSON inside the markdown code block. Do not write text outside of the JSON block.\n'}, {'role': 'user', 'content': 'Say hello and tell me a joke'}], temperature=0.7)[0m
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - 
+
+LiteLLM - DEBUG - 
+
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:530 - 
+self.optional_params: {}
+LiteLLM - DEBUG - self.optional_params: {}
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - ASYNC 
+kwargs[caching]: False; 
+litellm.cache: None; 
+kwargs.get('cache'): None
+LiteLLM - DEBUG - ASYNC kwargs[caching]: False; litellm.cache: None; kwargs.get('cache'): None
+[92m02:25:25 - 
+LiteLLM:DEBUG[0m: 
+main.py:517 - \U0001f504 
+NO SHARED SESSION: 
+acompletion called without 
+shared_session
+--- Logging error ---
+Traceback (most recent 
+call last):
+  File "C:\Python314\Lib\lo
+gging\__init__.py", line 
+1154, in emit
+    stream.write(msg + 
+self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Python314\Lib\en
+codings\cp1252.py", line 
+19, in encode
+    return codecs.charmap_e
+ncode(input,self.errors,enc
+oding_table)[0]
+           ~~~~~~~~~~~~~~~~
+~~~~~^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+UnicodeEncodeError: 
+'charmap' codec can't 
+encode character 
+'\U0001f504' in position 
+18: character maps to 
+<undefined>
+Call stack:
+  File "C:\Users\HP\nanobot
+\test_llm_debug.py", line 
+73, in <module>
+    asyncio.run(main())
+  File "C:\Python314\Lib\as
+yncio\runners.py", line 
+204, in run
+    return runner.run(main)
+  File "C:\Python314\Lib\as
+yncio\runners.py", line 
+127, in run
+    return self._loop.run_u
+ntil_complete(task)
+  File "C:\Python314\Lib\as
+yncio\base_events.py", 
+line 706, in 
+run_until_complete
+    self.run_forever()
+  File "C:\Python314\Lib\as
+yncio\base_events.py", 
+line 677, in run_forever
+    self._run_once()
+  File "C:\Python314\Lib\as
+yncio\base_events.py", 
+line 2046, in _run_once
+    handle._run()
+  File "C:\Python314\Lib\as
+yncio\events.py", line 94, 
+in _run
+    self._context.run(self.
+_callback, *self._args)
+  File "C:\Users\HP\nanobot
+\test_llm_debug.py", line 
+53, in main
+    await agent.execute_tas
+k("test_task_001", "Say 
+hello and tell me a joke", 
+user_id="debug_user")
+  File "C:\Users\HP\nanobot
+\nanobot\swarm\agents\base.
+py", line 121, in 
+execute_task
+    result = await self._ru
+n_operational_mode(objectiv
+e)
+  File "C:\Users\HP\nanobot
+\nanobot\swarm\agents\seeke
+r.py", line 63, in 
+_run_operational_mode
+    response = await 
+litellm.acompletion(
+  File "C:\Users\HP\AppData
+\Roaming\Python\Python314\s
+ite-packages\litellm\utils.
+py", line 1861, in 
+wrapper_async
+    result = await 
+original_function(*args, 
+**kwargs)
+  File "C:\Users\HP\AppData
+\Roaming\Python\Python314\s
+ite-packages\litellm\main.p
+y", line 517, in 
+acompletion
+    verbose_logger.debug(
+Message: '\U0001f504 NO 
+SHARED SESSION: 
+acompletion called without 
+shared_session'
+Arguments: ()
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:27 - 
+LiteLLM:INFO[0m: 
+utils.py:3889 - 
+LiteLLM completion() 
+model= gemini-2.5-flash; 
+provider = gemini
+LiteLLM - INFO - 
+LiteLLM completion() model= gemini-2.5-flash; provider = gemini
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+utils.py:3892 - 
+LiteLLM: Params passed to 
+completion() {'model': 
+'gemini-2.5-flash', 
+'functions': None, 
+'function_call': None, 
+'temperature': 0.7, 
+'top_p': None, 'n': None, 
+'stream': None, 
+'stream_options': None, 
+'stop': None, 
+'max_tokens': None, 
+'max_completion_tokens': 
+None, 'modalities': None, 
+'prediction': None, 
+'audio': None, 
+'presence_penalty': None, 
+'frequency_penalty': None, 
+'logit_bias': None, 
+'user': None, 
+'custom_llm_provider': 
+'gemini', 
+'response_format': None, 
+'seed': None, 'tools': 
+None, 'tool_choice': None, 
+'max_retries': None, 
+'logprobs': None, 
+'top_logprobs': None, 
+'extra_headers': None, 
+'api_version': None, 
+'parallel_tool_calls': 
+None, 'drop_params': None, 
+'allowed_openai_params': 
+None, 'reasoning_effort': 
+None, 'verbosity': None, 
+'additional_drop_params': 
+None, 'messages': 
+[{'role': 'system', 
+'content': 'You are a 
+specialized swarm 
+agent.\nRole: General 
+Seeker\nDescription: You 
+accomplish generic tasks 
+accurately. Respond 
+clearly and helpfully to 
+the user\'s 
+request.\n\nYou have 
+access to the following 
+callable skills/tools:\n[]\
+n\nCRITICAL EXECUTION 
+PROTOCOL:\nYou do not 
+simply act. You must 
+carefully analyze the 
+objective, the current 
+context, and the 
+historical facts available 
+to you. \nEvery single 
+response you provide MUST 
+strictly follow this exact 
+JSON 
+structure:\n\n```json\n{\n 
+   "analysis": {\n        
+"facts_considered": [\n    
+        "List specific, 
+undeniable facts derived 
+from the objective or 
+prior feedback.",\n        
+    "List any constraints 
+or limitations."\n        
+],\n        
+"focus_points": [\n        
+    "What exactly requires 
+your attention right 
+now?",\n            "What 
+are the highest risk 
+points of the current 
+objective?"\n        ],\n  
+      "rationale": "A 
+paragraph explaining 
+step-by-step why you are 
+making the following 
+decision, tying the facts 
+to the action."\n    },\n  
+  "action": {\n        
+"type": "string (the name 
+of the skill/tool to call, 
+or \'final_answer\')",\n   
+     "parameters": {\n     
+       // The precise 
+arguments to pass to the 
+tool\n        }\n    
+}\n}\n```\n\nFAILURE TO 
+ADHERE TO THIS STRUCTURE 
+SECURELY WILL RESULT IN 
+IMMEDIATE TERMINATION OF 
+THE LOOP.\nYou must always 
+output valid JSON inside 
+the markdown code block. 
+Do not write text outside 
+of the JSON block.\n'}, 
+{'role': 'user', 
+'content': 'Say hello and 
+tell me a joke'}], 
+'thinking': None, 
+'web_search_options': 
+None, 'safety_identifier': 
+None, 'service_tier': None}
+LiteLLM - DEBUG - 
+LiteLLM: Params passed to completion() {'model': 'gemini-2.5-flash', 'functions': None, 'function_call': None, 'temperature': 0.7, 'top_p': None, 'n': None, 'stream': None, 'stream_options': None, 'stop': None, 'max_tokens': None, 'max_completion_tokens': None, 'modalities': None, 'prediction': None, 'audio': None, 'presence_penalty': None, 'frequency_penalty': None, 'logit_bias': None, 'user': None, 'custom_llm_provider': 'gemini', 'response_format': None, 'seed': None, 'tools': None, 'tool_choice': None, 'max_retries': None, 'logprobs': None, 'top_logprobs': None, 'extra_headers': None, 'api_version': None, 'parallel_tool_calls': None, 'drop_params': None, 'allowed_openai_params': None, 'reasoning_effort': None, 'verbosity': None, 'additional_drop_params': None, 'messages': [{'role': 'system', 'content': 'You are a specialized swarm agent.\nRole: General Seeker\nDescription: You accomplish generic tasks accurately. Respond clearly and helpfully to the user\'s request.\n\nYou have access to the following callable skills/tools:\n[]\n\nCRITICAL EXECUTION PROTOCOL:\nYou do not simply act. You must carefully analyze the objective, the current context, and the historical facts available to you. \nEvery single response you provide MUST strictly follow this exact JSON structure:\n\n```json\n{\n    "analysis": {\n        "facts_considered": [\n            "List specific, undeniable facts derived from the objective or prior feedback.",\n            "List any constraints or limitations."\n        ],\n        "focus_points": [\n            "What exactly requires your attention right now?",\n            "What are the highest risk points of the current objective?"\n        ],\n        "rationale": "A paragraph explaining step-by-step why you are making the following decision, tying the facts to the action."\n    },\n    "action": {\n        "type": "string (the name of the skill/tool to call, or \'final_answer\')",\n        "parameters": {\n            // The precise arguments to pass to the tool\n        }\n    }\n}\n```\n\nFAILURE TO ADHERE TO THIS STRUCTURE SECURELY WILL RESULT IN IMMEDIATE TERMINATION OF THE LOOP.\nYou must always output valid JSON inside the markdown code block. Do not write text outside of the JSON block.\n'}, {'role': 'user', 'content': 'Say hello and tell me a joke'}], 'thinking': None, 'web_search_options': None, 'safety_identifier': None, 'service_tier': None}
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+utils.py:3895 - 
+LiteLLM: Non-Default 
+params passed to 
+completion() 
+{'temperature': 0.7}
+LiteLLM - DEBUG - 
+LiteLLM: Non-Default params passed to completion() {'temperature': 0.7}
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - Final 
+returned optional params: 
+{'temperature': 0.7}
+LiteLLM - DEBUG - Final returned optional params: {'temperature': 0.7}
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:530 - 
+self.optional_params: 
+{'temperature': 0.7}
+LiteLLM - DEBUG - self.optional_params: {'temperature': 0.7}
+[92m02:25:27 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:28 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+[92m02:25:28 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1082 - 
+[92m
+
+POST Request Sent from 
+LiteLLM:
+curl -X POST \
+https://generativelanguage.
+googleapis.com/v1beta/model
+s/gemini-2.5-flash:generate
+Content?key=*****TcP4 \
+-H 'Content-Type: 
+application/json' \
+-d '{'contents': [{'role': 
+'user', 'parts': [{'text': 
+'Say hello and tell me a 
+joke'}]}], 
+'system_instruction': 
+{'parts': [{'text': 'You 
+are a specialized swarm 
+agent.\nRole: General 
+Seeker\nDescription: You 
+accomplish generic tasks 
+accurately. Respond 
+clearly and helpfully to 
+the user\'s 
+request.\n\nYou have 
+access to the following 
+callable skills/tools:\n[]\
+n\nCRITICAL EXECUTION 
+PROTOCOL:\nYou do not 
+simply act. You must 
+carefully analyze the 
+objective, the current 
+context, and the 
+historical facts available 
+to you. \nEvery single 
+response you provide MUST 
+strictly follow this exact 
+JSON 
+structure:\n\n```json\n{\n 
+   "analysis": {\n        
+"facts_considered": [\n    
+        "List specific, 
+undeniable facts derived 
+from the objective or 
+prior feedback.",\n        
+    "List any constraints 
+or limitations."\n        
+],\n        
+"focus_points": [\n        
+    "What exactly requires 
+your attention right 
+now?",\n            "What 
+are the highest risk 
+points of the current 
+objective?"\n        ],\n  
+      "rationale": "A 
+paragraph explaining 
+step-by-step why you are 
+making the following 
+decision, tying the facts 
+to the action."\n    },\n  
+  "action": {\n        
+"type": "string (the name 
+of the skill/tool to call, 
+or \'final_answer\')",\n   
+     "parameters": {\n     
+       // The precise 
+arguments to pass to the 
+tool\n        }\n    
+}\n}\n```\n\nFAILURE TO 
+ADHERE TO THIS STRUCTURE 
+SECURELY WILL RESULT IN 
+IMMEDIATE TERMINATION OF 
+THE LOOP.\nYou must always 
+output valid JSON inside 
+the markdown code block. 
+Do not write text outside 
+of the JSON block.\n'}]}, 
+'generationConfig': 
+{'temperature': 0.7}}'
+[0m
+
+LiteLLM - DEBUG - [92m
+
+POST Request Sent from LiteLLM:
+curl -X POST \
+https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=*****TcP4 \
+-H 'Content-Type: application/json' \
+-d '{'contents': [{'role': 'user', 'parts': [{'text': 'Say hello and tell me a joke'}]}], 'system_instruction': {'parts': [{'text': 'You are a specialized swarm agent.\nRole: General Seeker\nDescription: You accomplish generic tasks accurately. Respond clearly and helpfully to the user\'s request.\n\nYou have access to the following callable skills/tools:\n[]\n\nCRITICAL EXECUTION PROTOCOL:\nYou do not simply act. You must carefully analyze the objective, the current context, and the historical facts available to you. \nEvery single response you provide MUST strictly follow this exact JSON structure:\n\n```json\n{\n    "analysis": {\n        "facts_considered": [\n            "List specific, undeniable facts derived from the objective or prior feedback.",\n            "List any constraints or limitations."\n        ],\n        "focus_points": [\n            "What exactly requires your attention right now?",\n            "What are the highest risk points of the current objective?"\n        ],\n        "rationale": "A paragraph explaining step-by-step why you are making the following decision, tying the facts to the action."\n    },\n    "action": {\n        "type": "string (the name of the skill/tool to call, or \'final_answer\')",\n        "parameters": {\n            // The precise arguments to pass to the tool\n        }\n    }\n}\n```\n\nFAILURE TO ADHERE TO THIS STRUCTURE SECURELY WILL RESULT IN IMMEDIATE TERMINATION OF THE LOOP.\nYou must always output valid JSON inside the markdown code block. Do not write text outside of the JSON block.\n'}]}, 'generationConfig': {'temperature': 0.7}}'
+[0m
+
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1155 - 
+RAW RESPONSE:
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": 
+"```json\n{\n    
+\"analysis\": {\n        
+\"facts_considered\": [\n  
+          \"The user 
+explicitly requested a 
+greeting: 'Say 
+hello'.\",\n            
+\"The user explicitly 
+requested a joke: 'tell me 
+a joke'.\",\n            
+\"I do not have access to 
+any external tools for 
+generating jokes or 
+greetings, therefore the 
+response must be a direct 
+textual output.\"\n        
+],\n        
+\"focus_points\": [\n      
+      \"Constructing a 
+friendly greeting.\",\n    
+        \"Formulating a 
+simple, appropriate 
+joke.\",\n            
+\"Ensuring the entire 
+response is encapsulated 
+within the 'final_answer' 
+action type's 'response' 
+parameter.\"\n        ],\n 
+       \"rationale\": 
+\"The user's request is a 
+direct instruction to 
+provide specific textual 
+content (a greeting and a 
+joke). Since no 
+specialized tools are 
+available for this task, 
+the most direct and 
+appropriate action is to 
+use the 'final_answer' 
+action type. This action 
+allows me to deliver the 
+requested text directly as 
+its 'response' parameter, 
+fulfilling both parts of 
+the user's prompt 
+immediately.\"\n    },\n   
+ \"action\": {\n        
+\"type\": 
+\"final_answer\",\n        
+\"parameters\": {\n        
+    \"response\": \"Hello! 
+Why don't scientists trust 
+atoms? Because they make 
+up everything!\"\n        
+}\n    }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": 
+"STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 
+323,
+    
+"candidatesTokenCount": 
+279,
+    "totalTokenCount": 822,
+    "promptTokensDetails": 
+[
+      {
+        "modality": "TEXT",
+        "tokenCount": 323
+      }
+    ],
+    "thoughtsTokenCount": 
+220
+  },
+  "modelVersion": 
+"gemini-2.5-flash",
+  "responseId": 
+"whuaaYXKAYqJ4-EP4evY8A4"
+}
+
+
+
+LiteLLM - DEBUG - RAW RESPONSE:
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n    \"analysis\": {\n        \"facts_considered\": [\n            \"The user explicitly requested a greeting: 'Say hello'.\",\n            \"The user explicitly requested a joke: 'tell me a joke'.\",\n            \"I do not have access to any external tools for generating jokes or greetings, therefore the response must be a direct textual output.\"\n        ],\n        \"focus_points\": [\n            \"Constructing a friendly greeting.\",\n            \"Formulating a simple, appropriate joke.\",\n            \"Ensuring the entire response is encapsulated within the 'final_answer' action type's 'response' parameter.\"\n        ],\n        \"rationale\": \"The user's request is a direct instruction to provide specific textual content (a greeting and a joke). Since no specialized tools are available for this task, the most direct and appropriate action is to use the 'final_answer' action type. This action allows me to deliver the requested text directly as its 'response' parameter, fulfilling both parts of the user's prompt immediately.\"\n    },\n    \"action\": {\n        \"type\": \"final_answer\",\n        \"parameters\": {\n            \"response\": \"Hello! Why don't scientists trust atoms? Because they make up everything!\"\n        }\n    }\n}\n```"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 323,
+    "candidatesTokenCount": 279,
+    "totalTokenCount": 822,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 323
+      }
+    ],
+    "thoughtsTokenCount": 220
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "whuaaYXKAYqJ4-EP4evY8A4"
+}
+
+
+
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:3148 - 
+Filtered callbacks: 
+['cache']
+LiteLLM - DEBUG - Filtered callbacks: ['cache']
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1861 - 
+Logging Details 
+LiteLLM-Success Call: 
+Cache_hit=None
+LiteLLM - DEBUG - Logging Details LiteLLM-Success Call: Cache_hit=None
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+cost_calculator.py:1035 - 
+selected model name for 
+cost calculation: 
+gemini/gemini-2.5-flash
+LiteLLM - DEBUG - selected model name for cost calculation: gemini/gemini-2.5-flash
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+cost_calculator.py:1035 - 
+selected model name for 
+cost calculation: 
+gemini/gemini-2.5-flash
+LiteLLM - DEBUG - selected model name for cost calculation: gemini/gemini-2.5-flash
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5815 - 
+model_info: {'key': 
+'gemini/gemini-2.5-flash', 
+'max_tokens': 65535, 
+'max_input_tokens': 
+1048576, 
+'max_output_tokens': 
+65535, 
+'input_cost_per_token': 
+3e-07, 'input_cost_per_toke
+n_flex': None, 'input_cost_
+per_token_priority': None, 
+'cache_creation_input_token
+_cost': None, 'cache_creati
+on_input_token_cost_above_2
+00k_tokens': None, 'cache_r
+ead_input_token_cost': 
+3e-08, 'cache_read_input_to
+ken_cost_above_200k_tokens'
+: None, 'cache_read_input_t
+oken_cost_flex': None, 'cac
+he_read_input_token_cost_pr
+iority': None, 'cache_creat
+ion_input_token_cost_above_
+1hr': None, 'input_cost_per
+_character': None, 'input_c
+ost_per_token_above_128k_to
+kens': None, 'input_cost_pe
+r_token_above_200k_tokens':
+ None, 
+'input_cost_per_query': 
+None, 
+'input_cost_per_second': 
+None, 'input_cost_per_audio
+_token': 1e-06, 'input_cost
+_per_image_token': None, 
+'input_cost_per_image': 
+None, 'input_cost_per_audio
+_per_second': None, 'input_
+cost_per_video_per_second':
+ None, 'input_cost_per_toke
+n_batches': None, 'output_c
+ost_per_token_batches': 
+None, 
+'output_cost_per_token': 
+2.5e-06, 'output_cost_per_t
+oken_flex': None, 'output_c
+ost_per_token_priority': 
+None, 'output_cost_per_audi
+o_token': None, 'output_cos
+t_per_character': None, 'ou
+tput_cost_per_reasoning_tok
+en': 2.5e-06, 'output_cost_
+per_token_above_128k_tokens
+': None, 'output_cost_per_c
+haracter_above_128k_tokens'
+: None, 'output_cost_per_to
+ken_above_200k_tokens': 
+None, 
+'output_cost_per_second': 
+None, 'output_cost_per_vide
+o_per_second': None, 
+'output_cost_per_image': 
+None, 'output_cost_per_imag
+e_token': None, 
+'output_vector_size': 
+None, 
+'citation_cost_per_token': 
+None, 'tiered_pricing': 
+None, 'litellm_provider': 
+'gemini', 'mode': 'chat', '
+supports_system_messages': 
+True, 'supports_response_sc
+hema': True, 
+'supports_vision': True, 's
+upports_function_calling': 
+True, 
+'supports_tool_choice': 
+True, 'supports_assistant_p
+refill': None, 
+'supports_prompt_caching': 
+True, 
+'supports_audio_input': 
+None, 
+'supports_audio_output': 
+False, 
+'supports_pdf_input': 
+True, 'supports_embedding_i
+mage_input': None, 'support
+s_native_streaming': None, 
+'supports_web_search': 
+True, 
+'supports_url_context': 
+True, 
+'supports_reasoning': 
+True, 
+'supports_computer_use': 
+None, 'search_context_cost_
+per_query': None, 'tpm': 
+8000000, 'rpm': 100000, 
+'ocr_cost_per_page': None, 
+'annotation_cost_per_page':
+ None}
+LiteLLM - DEBUG - model_info: {'key': 'gemini/gemini-2.5-flash', 'max_tokens': 65535, 'max_input_tokens': 1048576, 'max_output_tokens': 65535, 'input_cost_per_token': 3e-07, 'input_cost_per_token_flex': None, 'input_cost_per_token_priority': None, 'cache_creation_input_token_cost': None, 'cache_creation_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost': 3e-08, 'cache_read_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost_flex': None, 'cache_read_input_token_cost_priority': None, 'cache_creation_input_token_cost_above_1hr': None, 'input_cost_per_character': None, 'input_cost_per_token_above_128k_tokens': None, 'input_cost_per_token_above_200k_tokens': None, 'input_cost_per_query': None, 'input_cost_per_second': None, 'input_cost_per_audio_token': 1e-06, 'input_cost_per_image_token': None, 'input_cost_per_image': None, 'input_cost_per_audio_per_second': None, 'input_cost_per_video_per_second': None, 'input_cost_per_token_batches': None, 'output_cost_per_token_batches': None, 'output_cost_per_token': 2.5e-06, 'output_cost_per_token_flex': None, 'output_cost_per_token_priority': None, 'output_cost_per_audio_token': None, 'output_cost_per_character': None, 'output_cost_per_reasoning_token': 2.5e-06, 'output_cost_per_token_above_128k_tokens': None, 'output_cost_per_character_above_128k_tokens': None, 'output_cost_per_token_above_200k_tokens': None, 'output_cost_per_second': None, 'output_cost_per_video_per_second': None, 'output_cost_per_image': None, 'output_cost_per_image_token': None, 'output_vector_size': None, 'citation_cost_per_token': None, 'tiered_pricing': None, 'litellm_provider': 'gemini', 'mode': 'chat', 'supports_system_messages': True, 'supports_response_schema': True, 'supports_vision': True, 'supports_function_calling': True, 'supports_tool_choice': True, 'supports_assistant_prefill': None, 'supports_prompt_caching': True, 'supports_audio_input': None, 'supports_audio_output': False, 'supports_pdf_input': True, 'supports_embedding_image_input': None, 'supports_native_streaming': None, 'supports_web_search': True, 'supports_url_context': True, 'supports_reasoning': True, 'supports_computer_use': None, 'search_context_cost_per_query': None, 'tpm': 8000000, 'rpm': 100000, 'ocr_cost_per_page': None, 'annotation_cost_per_page': None}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1456 - 
+response_cost: 
+0.0013444000000000002
+LiteLLM - DEBUG - response_cost: 0.0013444000000000002
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5815 - 
+model_info: {'key': 
+'gemini/gemini-2.5-flash', 
+'max_tokens': 65535, 
+'max_input_tokens': 
+1048576, 
+'max_output_tokens': 
+65535, 
+'input_cost_per_token': 
+3e-07, 'input_cost_per_toke
+n_flex': None, 'input_cost_
+per_token_priority': None, 
+'cache_creation_input_token
+_cost': None, 'cache_creati
+on_input_token_cost_above_2
+00k_tokens': None, 'cache_r
+ead_input_token_cost': 
+3e-08, 'cache_read_input_to
+ken_cost_above_200k_tokens'
+: None, 'cache_read_input_t
+oken_cost_flex': None, 'cac
+he_read_input_token_cost_pr
+iority': None, 'cache_creat
+ion_input_token_cost_above_
+1hr': None, 'input_cost_per
+_character': None, 'input_c
+ost_per_token_above_128k_to
+kens': None, 'input_cost_pe
+r_token_above_200k_tokens':
+ None, 
+'input_cost_per_query': 
+None, 
+'input_cost_per_second': 
+None, 'input_cost_per_audio
+_token': 1e-06, 'input_cost
+_per_image_token': None, 
+'input_cost_per_image': 
+None, 'input_cost_per_audio
+_per_second': None, 'input_
+cost_per_video_per_second':
+ None, 'input_cost_per_toke
+n_batches': None, 'output_c
+ost_per_token_batches': 
+None, 
+'output_cost_per_token': 
+2.5e-06, 'output_cost_per_t
+oken_flex': None, 'output_c
+ost_per_token_priority': 
+None, 'output_cost_per_audi
+o_token': None, 'output_cos
+t_per_character': None, 'ou
+tput_cost_per_reasoning_tok
+en': 2.5e-06, 'output_cost_
+per_token_above_128k_tokens
+': None, 'output_cost_per_c
+haracter_above_128k_tokens'
+: None, 'output_cost_per_to
+ken_above_200k_tokens': 
+None, 
+'output_cost_per_second': 
+None, 'output_cost_per_vide
+o_per_second': None, 
+'output_cost_per_image': 
+None, 'output_cost_per_imag
+e_token': None, 
+'output_vector_size': 
+None, 
+'citation_cost_per_token': 
+None, 'tiered_pricing': 
+None, 'litellm_provider': 
+'gemini', 'mode': 'chat', '
+supports_system_messages': 
+True, 'supports_response_sc
+hema': True, 
+'supports_vision': True, 's
+upports_function_calling': 
+True, 
+'supports_tool_choice': 
+True, 'supports_assistant_p
+refill': None, 
+'supports_prompt_caching': 
+True, 
+'supports_audio_input': 
+None, 
+'supports_audio_output': 
+False, 
+'supports_pdf_input': 
+True, 'supports_embedding_i
+mage_input': None, 'support
+s_native_streaming': None, 
+'supports_web_search': 
+True, 
+'supports_url_context': 
+True, 
+'supports_reasoning': 
+True, 
+'supports_computer_use': 
+None, 'search_context_cost_
+per_query': None, 'tpm': 
+8000000, 'rpm': 100000, 
+'ocr_cost_per_page': None, 
+'annotation_cost_per_page':
+ None}
+LiteLLM - DEBUG - model_info: {'key': 'gemini/gemini-2.5-flash', 'max_tokens': 65535, 'max_input_tokens': 1048576, 'max_output_tokens': 65535, 'input_cost_per_token': 3e-07, 'input_cost_per_token_flex': None, 'input_cost_per_token_priority': None, 'cache_creation_input_token_cost': None, 'cache_creation_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost': 3e-08, 'cache_read_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost_flex': None, 'cache_read_input_token_cost_priority': None, 'cache_creation_input_token_cost_above_1hr': None, 'input_cost_per_character': None, 'input_cost_per_token_above_128k_tokens': None, 'input_cost_per_token_above_200k_tokens': None, 'input_cost_per_query': None, 'input_cost_per_second': None, 'input_cost_per_audio_token': 1e-06, 'input_cost_per_image_token': None, 'input_cost_per_image': None, 'input_cost_per_audio_per_second': None, 'input_cost_per_video_per_second': None, 'input_cost_per_token_batches': None, 'output_cost_per_token_batches': None, 'output_cost_per_token': 2.5e-06, 'output_cost_per_token_flex': None, 'output_cost_per_token_priority': None, 'output_cost_per_audio_token': None, 'output_cost_per_character': None, 'output_cost_per_reasoning_token': 2.5e-06, 'output_cost_per_token_above_128k_tokens': None, 'output_cost_per_character_above_128k_tokens': None, 'output_cost_per_token_above_200k_tokens': None, 'output_cost_per_second': None, 'output_cost_per_video_per_second': None, 'output_cost_per_image': None, 'output_cost_per_image_token': None, 'output_vector_size': None, 'citation_cost_per_token': None, 'tiered_pricing': None, 'litellm_provider': 'gemini', 'mode': 'chat', 'supports_system_messages': True, 'supports_response_schema': True, 'supports_vision': True, 'supports_function_calling': True, 'supports_tool_choice': True, 'supports_assistant_prefill': None, 'supports_prompt_caching': True, 'supports_audio_input': None, 'supports_audio_output': False, 'supports_pdf_input': True, 'supports_embedding_image_input': None, 'supports_native_streaming': None, 'supports_web_search': True, 'supports_url_context': True, 'supports_reasoning': True, 'supports_computer_use': None, 'search_context_cost_per_query': None, 'tpm': 8000000, 'rpm': 100000, 'ocr_cost_per_page': None, 'annotation_cost_per_page': None}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1456 - 
+response_cost: 
+0.0013444000000000002
+LiteLLM - DEBUG - response_cost: 0.0013444000000000002
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5445 - checking 
+potential_model_names in 
+litellm.model_cost: 
+{'split_model': 
+'gemini-2.5-flash', 
+'combined_model_name': 
+'gemini/gemini-2.5-flash', 
+'stripped_model_name': 
+'gemini-2.5-flash', 'combin
+ed_stripped_model_name': 
+'gemini/gemini-2.5-flash', 
+'custom_llm_provider': 
+'gemini'}
+LiteLLM - DEBUG - checking potential_model_names in litellm.model_cost: {'split_model': 'gemini-2.5-flash', 'combined_model_name': 'gemini/gemini-2.5-flash', 'stripped_model_name': 'gemini-2.5-flash', 'combined_stripped_model_name': 'gemini/gemini-2.5-flash', 'custom_llm_provider': 'gemini'}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:5815 - 
+model_info: {'key': 
+'gemini/gemini-2.5-flash', 
+'max_tokens': 65535, 
+'max_input_tokens': 
+1048576, 
+'max_output_tokens': 
+65535, 
+'input_cost_per_token': 
+3e-07, 'input_cost_per_toke
+n_flex': None, 'input_cost_
+per_token_priority': None, 
+'cache_creation_input_token
+_cost': None, 'cache_creati
+on_input_token_cost_above_2
+00k_tokens': None, 'cache_r
+ead_input_token_cost': 
+3e-08, 'cache_read_input_to
+ken_cost_above_200k_tokens'
+: None, 'cache_read_input_t
+oken_cost_flex': None, 'cac
+he_read_input_token_cost_pr
+iority': None, 'cache_creat
+ion_input_token_cost_above_
+1hr': None, 'input_cost_per
+_character': None, 'input_c
+ost_per_token_above_128k_to
+kens': None, 'input_cost_pe
+r_token_above_200k_tokens':
+ None, 
+'input_cost_per_query': 
+None, 
+'input_cost_per_second': 
+None, 'input_cost_per_audio
+_token': 1e-06, 'input_cost
+_per_image_token': None, 
+'input_cost_per_image': 
+None, 'input_cost_per_audio
+_per_second': None, 'input_
+cost_per_video_per_second':
+ None, 'input_cost_per_toke
+n_batches': None, 'output_c
+ost_per_token_batches': 
+None, 
+'output_cost_per_token': 
+2.5e-06, 'output_cost_per_t
+oken_flex': None, 'output_c
+ost_per_token_priority': 
+None, 'output_cost_per_audi
+o_token': None, 'output_cos
+t_per_character': None, 'ou
+tput_cost_per_reasoning_tok
+en': 2.5e-06, 'output_cost_
+per_token_above_128k_tokens
+': None, 'output_cost_per_c
+haracter_above_128k_tokens'
+: None, 'output_cost_per_to
+ken_above_200k_tokens': 
+None, 
+'output_cost_per_second': 
+None, 'output_cost_per_vide
+o_per_second': None, 
+'output_cost_per_image': 
+None, 'output_cost_per_imag
+e_token': None, 
+'output_vector_size': 
+None, 
+'citation_cost_per_token': 
+None, 'tiered_pricing': 
+None, 'litellm_provider': 
+'gemini', 'mode': 'chat', '
+supports_system_messages': 
+True, 'supports_response_sc
+hema': True, 
+'supports_vision': True, 's
+upports_function_calling': 
+True, 
+'supports_tool_choice': 
+True, 'supports_assistant_p
+refill': None, 
+'supports_prompt_caching': 
+True, 
+'supports_audio_input': 
+None, 
+'supports_audio_output': 
+False, 
+'supports_pdf_input': 
+True, 'supports_embedding_i
+mage_input': None, 'support
+s_native_streaming': None, 
+'supports_web_search': 
+True, 
+'supports_url_context': 
+True, 
+'supports_reasoning': 
+True, 
+'supports_computer_use': 
+None, 'search_context_cost_
+per_query': None, 'tpm': 
+8000000, 'rpm': 100000, 
+'ocr_cost_per_page': None, 
+'annotation_cost_per_page':
+ None}
+nanobot.swarm.broker.lmdb_broker - DEBUG - Published to gateway_outbound: 27b75ef9-45f9-43e8-a97e-22e74097f224
+LiteLLM - DEBUG - model_info: {'key': 'gemini/gemini-2.5-flash', 'max_tokens': 65535, 'max_input_tokens': 1048576, 'max_output_tokens': 65535, 'input_cost_per_token': 3e-07, 'input_cost_per_token_flex': None, 'input_cost_per_token_priority': None, 'cache_creation_input_token_cost': None, 'cache_creation_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost': 3e-08, 'cache_read_input_token_cost_above_200k_tokens': None, 'cache_read_input_token_cost_flex': None, 'cache_read_input_token_cost_priority': None, 'cache_creation_input_token_cost_above_1hr': None, 'input_cost_per_character': None, 'input_cost_per_token_above_128k_tokens': None, 'input_cost_per_token_above_200k_tokens': None, 'input_cost_per_query': None, 'input_cost_per_second': None, 'input_cost_per_audio_token': 1e-06, 'input_cost_per_image_token': None, 'input_cost_per_image': None, 'input_cost_per_audio_per_second': None, 'input_cost_per_video_per_second': None, 'input_cost_per_token_batches': None, 'output_cost_per_token_batches': None, 'output_cost_per_token': 2.5e-06, 'output_cost_per_token_flex': None, 'output_cost_per_token_priority': None, 'output_cost_per_audio_token': None, 'output_cost_per_character': None, 'output_cost_per_reasoning_token': 2.5e-06, 'output_cost_per_token_above_128k_tokens': None, 'output_cost_per_character_above_128k_tokens': None, 'output_cost_per_token_above_200k_tokens': None, 'output_cost_per_second': None, 'output_cost_per_video_per_second': None, 'output_cost_per_image': None, 'output_cost_per_image_token': None, 'output_vector_size': None, 'citation_cost_per_token': None, 'tiered_pricing': None, 'litellm_provider': 'gemini', 'mode': 'chat', 'supports_system_messages': True, 'supports_response_schema': True, 'supports_vision': True, 'supports_function_calling': True, 'supports_tool_choice': True, 'supports_assistant_prefill': None, 'supports_prompt_caching': True, 'supports_audio_input': None, 'supports_audio_output': False, 'supports_pdf_input': True, 'supports_embedding_image_input': None, 'supports_native_streaming': None, 'supports_web_search': True, 'supports_url_context': True, 'supports_reasoning': True, 'supports_computer_use': None, 'search_context_cost_per_query': None, 'tpm': 8000000, 'rpm': 100000, 'ocr_cost_per_page': None, 'annotation_cost_per_page': None}
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1898 - 
+Logging Details 
+LiteLLM-Success Call 
+streaming complete
+LiteLLM - DEBUG - Logging Details LiteLLM-Success Call streaming complete
+nanobot.swarm.state.duckdb_ledger - DEBUG - Updated node test_task_001 status to COMPLETED
+nanobot.swarm.broker.lmdb_broker - DEBUG - Published to swarm_main: 6b5e3d70-6162-46e2-b0aa-2cfb85e10ddb
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - Async 
+Wrapper: Completed Call, 
+calling 
+async_success_handler: 
+<bound method Logging.async
+_success_handler of <litell
+m.litellm_core_utils.litell
+m_logging.Logging object 
+at 0x000001ADF0F8C050>>
+
+>>> TASK STATUS: COMPLETED
+LiteLLM - DEBUG - Async Wrapper: Completed Call, calling async_success_handler: <bound method Logging.async_success_handler of <litellm.litellm_core_utils.litellm_logging.Logging object at 0x000001ADF0F8C050>>
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:3148 - 
+Filtered callbacks: 
+['cache']
+LiteLLM - DEBUG - Filtered callbacks: ['cache']
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:1861 - 
+Logging Details 
+LiteLLM-Success Call: 
+Cache_hit=None
+LiteLLM - DEBUG - Logging Details LiteLLM-Success Call: Cache_hit=None
+[92m02:25:31 - 
+LiteLLM:INFO[0m: 
+logging_worker.py:444 - 
+[LoggingWorker] atexit: 
+Flushing 1 remaining 
+events...
+LiteLLM - INFO - [LoggingWorker] atexit: Flushing 1 remaining events...
+asyncio - DEBUG - Using proactor: IocpProactor
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - Logging 
+Details LiteLLM-Async 
+Success Call, 
+cache_hit=None
+LiteLLM - DEBUG - Logging Details LiteLLM-Async Success Call, cache_hit=None
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+utils.py:477 - Async 
+success callbacks: Got a 
+complete streaming response
+LiteLLM - DEBUG - Async success callbacks: Got a complete streaming response
+[92m02:25:31 - 
+LiteLLM:DEBUG[0m: 
+litellm_logging.py:2422 - 
+Model=gemini-2.5-flash; 
+cost=0.0013444000000000002
+LiteLLM - DEBUG - Model=gemini-2.5-flash; cost=0.0013444000000000002
+[92m02:25:31 - 
+LiteLLM:INFO[0m: 
+logging_worker.py:444 - 
+[LoggingWorker] atexit: 
+Successfully flushed 1 
+events!
+LiteLLM - INFO - [LoggingWorker] atexit: Successfully flushed 1 events!
+asyncio - DEBUG - Using proactor: IocpProactor

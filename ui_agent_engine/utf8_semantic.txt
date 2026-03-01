@@ -1,0 +1,51 @@
+﻿[UIAgent] Initializing agent modules...
+[ActionPredictor] Bootstrapping Memory from C:\Users\HP\Downloads\ui agent\agent_memory\predicted_outputs\gui_map_1772187314.json...
+[ActionPredictor] Bootstrap Complete: 243 templates cached in RAM.
+
+--- Starting Telegram Web Test ---
+[UIAgent] Starting execution loop...
+[ActionPredictor] Predicting parameters for click on 'Google Chrome icon'
+[ActionPredictor] Target 'Google Chrome icon' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 0.98 >= 0.85. Fast Coords: (801, 745)
+[UIAgent] Executing click with {'x': 801, 'y': 745}
+[LearningLoop] Evaluating success of action: click
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192562570.png -> agent_memory/screenshots\after_1772192562570.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 3.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192569108.png -> agent_memory/screenshots\after_1772192569108.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for hotkey on 'None'
+[UIAgent] Executing hotkey with {}
+[LearningLoop] Evaluating success of action: hotkey
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192579488.png -> agent_memory/screenshots\after_1772192579488.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 1.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192587173.png -> agent_memory/screenshots\after_1772192587173.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for type on 'web.telegram.org'
+[UIAgent] Executing type with {'text': 'web.telegram.org'}
+[LearningLoop] Evaluating success of action: type
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192594850.png -> agent_memory/screenshots\after_1772192594850.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for press on 'None'
+[UIAgent] Executing press with {}
+[LearningLoop] Evaluating success of action: press
+[VLM] Evaluating Semantic Success: agent_memory/screenshots\before_1772192604181.png -> agent_memory/screenshots\after_1772192604181.png
+[VLM Semantic Eval] Response: NO
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[UIAgent] Goal completed or execution stopped.

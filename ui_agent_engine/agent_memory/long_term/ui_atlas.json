@@ -1,0 +1,41 @@
+{
+  "contexts": {
+    "Desktop": {
+      "elements": {
+        "testicon": {
+          "coords": [
+            20,
+            20,
+            50,
+            50
+          ],
+          "type": "test",
+          "behavior": "static",
+          "description": "TestIcon"
+        }
+      },
+      "last_seen": 1772302166.4904428
+    },
+    "Taskbar": {
+      "elements": {
+        "start button": {
+          "coords": [
+            0,
+            1040,
+            40,
+            40
+          ],
+          "type": "system_button",
+          "behavior": "static",
+          "description": "Start Button",
+          "is_invariant": true
+        }
+      },
+      "last_seen": 1772304445.549459,
+      "type": "FIXED"
+    }
+  },
+  "global_elements": {},
+  "layout_patterns": {},
+  "version": "2.0"
+}

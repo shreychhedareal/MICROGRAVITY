@@ -1,0 +1,4 @@
+--- TEST RESULTS ---
+Target: google chrome application icon
+Resolved Coordinates: {'x': 794, 'y': 743}
+Execution Time: 8504.19 ms

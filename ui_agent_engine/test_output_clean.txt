@@ -1,0 +1,44 @@
+﻿Currently visible windows:
+ - meet.google.com is sharing your screen.
+ - ui agent - Antigravity - screen.py
+ - Telegram Web - Google Chrome
+ - screenshots - File Explorer
+ - window_1772046151515.png
+ - window_1772046151377.png
+ - window_1772046078128.png
+ - window_1772046124885.png
+ - window_1772046124744.png
+ - window_1772046151746.png
+ - window_1772046151515.png
+ - window_1772046151377.png
+ - window_1772045851164.png
+ - window_1772045851327.png
+ - window_1772045851098.png
+ - window_1772045576511.png
+ - window_1772045576412.png
+ - after_1772045125990.png
+ - window_1772045576511.png
+ - before_1772045094393.png
+ - after_1772045052688.png
+ - after_1772045062155.png
+ - before_1772044799813.png
+ - after_1772044809946.png
+ - screenshots - File Explorer
+ - before_1772042994972.png
+ - before_1772044245884.png
+ - after_1772044282037.png
+ - before_1772044799813.png
+ - Windows Input Experience
+ - Program Manager
+
+Attempting to capture a few common background apps if they are open:
+[WindowObserver] Error: Window 'Notepad' not found.
+[WindowObserver] Successfully captured full background window buffer 'Telegram Web - Google Chrome' to agent_memory/screenshots\window_1772048335771.png
+[WindowObserver] Error: Window 'Edge' not found.
+[WindowObserver] Error: Window 'Code' not found.
+[WindowObserver] Error: Window 'Discord' not found.
+[WindowObserver] Error: Window 'Spotify' not found.
+[WindowObserver] Successfully captured full background window buffer 'screenshots - File Explorer' to agent_memory/screenshots\window_1772048335971.png
+[WindowObserver] Successfully captured full background window buffer 'meet.google.com is sharing your screen.' to agent_memory/screenshots\window_1772048336105.png
+
+Successfully stored 3 background window buffers!

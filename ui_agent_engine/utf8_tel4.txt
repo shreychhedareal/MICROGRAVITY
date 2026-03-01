@@ -1,0 +1,41 @@
+﻿[UIAgent] Initializing agent modules...
+[ActionPredictor] Bootstrapping Memory from C:\Users\HP\Downloads\ui agent\agent_memory\predicted_outputs\gui_map_1772187314.json...
+[ActionPredictor] Bootstrap Complete: 243 templates cached in RAM.
+
+--- Starting Telegram Web Test ---
+[UIAgent] Starting execution loop...
+[ActionPredictor] Predicting parameters for click on 'Google Chrome icon'
+[ActionPredictor] Target 'Google Chrome icon' found in RAM Cache. Verifying with CV...
+[CV Tracker] MATCH 1.00 >= 0.85. Fast Coords: (801, 745)
+[UIAgent] Executing click with {'x': 801, 'y': 745}
+[LearningLoop] Evaluating success of action: click
+[VLM] Comparing agent_memory/screenshots\before_1772190486106.png to agent_memory/screenshots\after_1772190486106.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 3.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Comparing agent_memory/screenshots\before_1772190492341.png to agent_memory/screenshots\after_1772190492341.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for hotkey on 'None'
+[UIAgent] Executing hotkey with {}
+[LearningLoop] Evaluating success of action: hotkey
+[VLM] Comparing agent_memory/screenshots\before_1772190504882.png to agent_memory/screenshots\after_1772190504882.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 1.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Comparing agent_memory/screenshots\before_1772190512076.png to agent_memory/screenshots\after_1772190512076.png
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for type on 'web.telegram.org'
+[UIAgent] Executing type with {'text': 'web.telegram.org'}
+[LearningLoop] Evaluating success of action: type
+[VLM] Comparing agent_memory/screenshots\before_1772190522109.png to agent_memory/screenshots\after_1772190522109.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for press on 'None'
+[UIAgent] Executing press with {}
+[LearningLoop] Evaluating success of action: press
+[VLM] Comparing agent_memory/screenshots\before_1772190539201.png to agent_memory/screenshots\after_1772190539201.png
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[UIAgent] Goal completed or execution stopped.

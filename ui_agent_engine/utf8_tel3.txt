@@ -1,0 +1,43 @@
+﻿[UIAgent] Initializing agent modules...
+[ActionPredictor] Bootstrapping Memory from C:\Users\HP\Downloads\ui agent\agent_memory\predicted_outputs\gui_map_1772187314.json...
+[ActionPredictor] Bootstrap Failed: 'x'
+
+--- Starting Telegram Web Test ---
+[UIAgent] Starting execution loop...
+[ActionPredictor] Predicting parameters for click on 'Google Chrome icon'
+[ActionPredictor] Target 'Google Chrome icon' not cached or stale. Falling back to VLM...
+[VLM] Finding bounding box for 'Google Chrome icon' in agent_memory/screenshots\before_1772189732249.png using Spatial Tool
+[ActionPredictor] VLM Found 'Google Chrome icon' at: L:781, T:732, R:807, B:755
+[UIAgent] Executing click with {'x': 794, 'y': 743}
+[LearningLoop] Evaluating success of action: click
+[VLM] Comparing agent_memory/screenshots\before_1772189732249.png to agent_memory/screenshots\after_1772189732249.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 3.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Comparing agent_memory/screenshots\before_1772189743865.png to agent_memory/screenshots\after_1772189743865.png
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for hotkey on 'None'
+[UIAgent] Executing hotkey with {}
+[LearningLoop] Evaluating success of action: hotkey
+[VLM] Comparing agent_memory/screenshots\before_1772189752876.png to agent_memory/screenshots\after_1772189752876.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for wait on 'None'
+[UIAgent] Executing wait with {'duration': 1.0}
+[LearningLoop] Evaluating success of action: wait
+[VLM] Comparing agent_memory/screenshots\before_1772189760788.png to agent_memory/screenshots\after_1772189760788.png
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[ActionPredictor] Predicting parameters for type on 'web.telegram.org'
+[UIAgent] Executing type with {'text': 'web.telegram.org'}
+[LearningLoop] Evaluating success of action: type
+[VLM] Comparing agent_memory/screenshots\before_1772189778740.png to agent_memory/screenshots\after_1772189778740.png
+[LearningLoop] Action deemed SUCCESSFUL.
+[ActionPredictor] Predicting parameters for press on 'None'
+[UIAgent] Executing press with {}
+[LearningLoop] Evaluating success of action: press
+[VLM] Comparing agent_memory/screenshots\before_1772189786734.png to agent_memory/screenshots\after_1772189786734.png
+[LearningLoop] Action deemed FAILED.
+[UIAgent] Action failed. Attempting to recover...
+[UIAgent] Goal completed or execution stopped.

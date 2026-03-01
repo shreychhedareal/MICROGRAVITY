@@ -1,0 +1,236 @@
+2026-02-24 02:21:23,357 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 02:21:29,899 - [INFO] - Browser initialized successfully.
+2026-02-24 02:21:29,899 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.reddit.com/r/technology/'}
+2026-02-24 02:23:34,665 - [ERROR] - EXCEPTION during 'navigate': HTTPConnectionPool(host='localhost', port=54466): Read timed out. (read timeout=120)
+2026-02-24 02:23:34,668 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 02:23:35,192 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 02:24:30,931 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 02:24:33,096 - [INFO] - Browser initialized successfully.
+2026-02-24 02:24:33,096 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.reddit.com/r/technology/'}
+2026-02-24 02:26:02,756 - [ERROR] - EXCEPTION during 'navigate': Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=145.0.7632.76)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf3f3e3
+	0xf3f424
+	0xd32090
+	0xd2f59e
+	0xd22674
+	0xd240dc
+	0xd22b17
+	0xd22445
+	0xd22145
+	0xd20258
+	0xd2096a
+	0xd35b1e
+	0xdbc554
+	0xd9ee1c
+	0xdbbb23
+	0xd9ebb6
+	0xd70319
+	0xd710d4
+	0x11946a4
+	0x118f9a9
+	0x11ac940
+	0xf580f8
+	0xf5fe4d
+	0xf47c18
+	0xf47de2
+	0xf318ea
+	0x74fd7ba9
+	0x7734c0cb
+	0x7734c04f
+
+2026-02-24 02:26:02,757 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 02:26:03,268 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 02:26:38,358 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 02:26:39,789 - [INFO] - Browser initialized successfully.
+2026-02-24 02:26:39,789 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.google.com/search?q=test'}
+2026-02-24 02:26:43,603 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://www.google.com/search?q=test&sei=CL-caaTCC_SgnesP45OTqAY
+2026-02-24 02:26:43,611 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'reddit_bypass_test.png'}
+2026-02-24 02:26:43,956 - [INFO] - SUCCESS: screenshot | SAVED_TO: reddit_bypass_test.png
+2026-02-24 02:26:43,960 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 02:26:44,196 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 764727
+2026-02-24 02:26:44,239 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 02:26:44,440 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 03:10:13,728 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 03:10:16,162 - [INFO] - Browser initialized successfully.
+2026-02-24 03:10:16,162 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.reddit.com/r/technology/'}
+2026-02-24 03:10:19,706 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://www.reddit.com/r/technology/
+2026-02-24 03:10:19,718 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'reddit_bypass_test.png'}
+2026-02-24 03:10:20,178 - [INFO] - SUCCESS: screenshot | SAVED_TO: reddit_bypass_test.png
+2026-02-24 03:10:20,179 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 03:10:20,289 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 168325
+2026-02-24 03:10:20,297 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 03:10:20,582 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 14:21:10,308 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 14:21:12,887 - [INFO] - Browser initialized successfully.
+2026-02-24 14:21:12,887 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://example.com'}
+2026-02-24 14:21:33,329 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://example.com/
+2026-02-24 14:21:33,346 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'example_screenshot.png'}
+2026-02-24 14:21:33,508 - [INFO] - SUCCESS: screenshot | SAVED_TO: example_screenshot.png
+2026-02-24 14:21:33,510 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 14:21:33,525 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 133318
+2026-02-24 14:21:33,527 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 14:21:33,716 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 14:21:51,489 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 14:21:52,542 - [INFO] - Browser initialized successfully.
+2026-02-24 14:21:52,542 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.reddit.com/r/technology/'}
+2026-02-24 14:22:35,160 - [ERROR] - EXCEPTION during 'navigate': Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=145.0.7632.76)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x10b7dd3
+	0x10b7e14
+	0xec1db0
+	0xebf2be
+	0xeb23d4
+	0xeb3e2c
+	0xeb2864
+	0xeb21a5
+	0xeb1ea5
+	0xeaffb8
+	0xeb0806
+	0xed445e
+	0xeca89b
+	0xeca7a2
+	0xebe431
+	0xebe942
+	0xeb22b9
+	0xeb3177
+	0xeb2839
+	0xeb21a5
+	0xeb1ea5
+	0xeaffb8
+	0xeb0806
+	0xed445e
+	0xeca89b
+	0xeca7a2
+	0xebe431
+	0xebe942
+	0xeb22b9
+	0xeb3177
+	0xeb2839
+	0xeb21a5
+	0xeb1ea5
+	0xeaffb8
+	0xeb06ca
+	0xec583e
+	0xf4c174
+	0xf2ea3c
+	0xf4b621
+	0xf2e7d6
+	0xf00049
+	0xf00e04
+	0x1316924
+	0x1311bf7
+	0x132f5a0
+	0x10d0f58
+	0x10d891d
+	0x10c0648
+	0x10c0812
+	0x10aa21a
+	0x76897ba9
+	0x7746c0cb
+	0x7746c04f
+
+2026-02-24 14:22:35,166 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 14:22:35,359 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-24 17:23:31,185 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 17:23:34,149 - [INFO] - Browser initialized successfully.
+2026-02-24 17:23:34,149 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://example.com'}
+2026-02-24 17:23:54,741 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://example.com/
+2026-02-24 17:23:56,611 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'screenshot.png'}
+2026-02-24 17:23:56,743 - [INFO] - SUCCESS: screenshot | SAVED_TO: screenshot.png
+2026-02-24 17:23:58,539 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 17:23:58,589 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 133318
+2026-02-24 17:24:02,605 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'http://info.cern.ch/hypertext/WWW/TheProject.html'}
+2026-02-24 17:24:03,831 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://info.cern.ch/hypertext/WWW/TheProject.html
+2026-02-24 17:24:05,970 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'screenshot_cern.png'}
+2026-02-24 17:24:06,092 - [INFO] - SUCCESS: screenshot | SAVED_TO: screenshot_cern.png
+2026-02-24 17:24:09,344 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 17:24:09,349 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 2392
+2026-02-24 17:24:32,426 - [INFO] - ACTION: click | ATTEMPT: 1/2 | ARGS: {'selector': "h1:contains('World Wide Web')"}
+2026-02-24 17:24:32,481 - [ERROR] - EXCEPTION during 'click': Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=145.0.7632.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x557dd3
+	0x557e14
+	0x361db0
+	0x3689cd
+	0x36acbf
+	0x36ad58
+	0x3abc80
+	0x3ac4ab
+	0x3ede32
+	0x3cea84
+	0x3eb621
+	0x3ce7d6
+	0x3a0049
+	0x3a0e04
+	0x7b6924
+	0x7b1bf7
+	0x7cf5a0
+	0x570f58
+	0x57891d
+	0x560648
+	0x560812
+	0x54a21a
+	0x76897ba9
+	0x7746c0cb
+	0x7746c04f
+
+2026-02-24 17:24:36,739 - [INFO] - ACTION: click | ATTEMPT: 1/2 | ARGS: {'selector': 'h1'}
+2026-02-24 17:24:36,895 - [INFO] - SUCCESS: click | SELECTOR: h1
+2026-02-24 22:49:57,506 - [INFO] - Initializing undetected-chromedriver...
+2026-02-24 22:49:59,818 - [INFO] - Browser initialized successfully.
+2026-02-24 22:49:59,818 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://www.reddit.com/r/technology/'}
+2026-02-24 22:50:02,335 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://www.reddit.com/r/technology/
+2026-02-24 22:50:02,342 - [INFO] - ACTION: screenshot | ATTEMPT: 1/2 | ARGS: {'path': 'reddit_bypass_test.png'}
+2026-02-24 22:50:02,489 - [INFO] - SUCCESS: screenshot | SAVED_TO: reddit_bypass_test.png
+2026-02-24 22:50:02,491 - [INFO] - ACTION: get_html | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 22:50:02,557 - [INFO] - SUCCESS: get_html | HTML_LENGTH: 168325
+2026-02-24 22:50:02,567 - [INFO] - ACTION: close | ATTEMPT: 1/2 | ARGS: {}
+2026-02-24 22:50:03,006 - [INFO] - SUCCESS: close | Browser quit.
+2026-02-25 17:16:12,608 - [INFO] - Initializing undetected-chromedriver...
+2026-02-25 17:16:18,245 - [ERROR] - Failed to initialize browser: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\HP\\appdata\\roaming\\undetected_chromedriver\\undetected\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\HP\\appdata\\roaming\\undetected_chromedriver\\undetected_chromedriver.exe'
+2026-02-25 17:16:18,246 - [ERROR] - EXCEPTION during 'navigate': [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\HP\\appdata\\roaming\\undetected_chromedriver\\undetected\\chromedriver-win32\\chromedriver.exe' -> 'C:\\Users\\HP\\appdata\\roaming\\undetected_chromedriver\\undetected_chromedriver.exe'
+2026-02-25 17:16:21,152 - [INFO] - Initializing undetected-chromedriver...
+2026-02-25 17:16:27,993 - [INFO] - Browser initialized successfully.
+2026-02-25 17:16:27,993 - [INFO] - ACTION: restart | ATTEMPT: 1/2 | ARGS: {}
+2026-02-25 17:16:27,994 - [INFO] - SUCCESS: restart | Browser restarted.
+2026-02-25 17:16:29,916 - [INFO] - ACTION: navigate | ATTEMPT: 1/2 | ARGS: {'url': 'https://rumi.social'}
+2026-02-25 17:16:29,922 - [ERROR] - EXCEPTION during 'navigate': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=145.0.7632.111)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xfa7dd3
+	0xfa7e14
+	0xdb1db0
+	0xd908d3
+	0xe250fb
+	0xe3b0d9
+	0xe1e7d6
+	0xdf0049
+	0xdf0e04
+	0x1206924
+	0x1201bf7
+	0x121f5a0
+	0xfc0f58
+	0xfc891d
+	0xfb0648
+	0xfb0812
+	0xf9a21a
+	0x765b7ba9
+	0x7752c0cb
+	0x7752c04f
+
+2026-02-25 17:16:29,922 - [INFO] - Attempting to recover from crashed window: Re-initializing driver.
+2026-02-25 17:16:30,860 - [INFO] - Initializing undetected-chromedriver...
+2026-02-25 17:16:32,407 - [INFO] - Browser initialized successfully.
+2026-02-25 17:16:32,407 - [INFO] - ACTION: navigate | ATTEMPT: 2/2 | ARGS: {'url': 'https://rumi.social'}
+2026-02-25 17:16:34,308 - [INFO] - SUCCESS: navigate | FINISHED_URL: https://rumi.social/

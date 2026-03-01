@@ -1,0 +1,45 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.0.2, pluggy-1.6.0
+rootdir: C:\Users\HP\Downloads\nanobot
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.12.1, langsmith-0.6.4, asyncio-1.3.0
+asyncio: mode=Mode.AUTO, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 63 items
+
+tests\test_cli_input.py ...                                              [  4%]
+tests\test_commands.py .F.......                                         [ 19%]
+tests\test_consolidate_offset.py ...................................     [ 74%]
+tests\test_cron_commands.py .                                            [ 76%]
+tests\test_cron_service.py ..                                            [ 79%]
+tests\test_email_channel.py .......                                      [ 90%]
+tests\test_tool_validation.py ......                                     [100%]
+
+================================== FAILURES ===================================
+____________________ test_onboard_existing_config_refresh _____________________
+
+mock_paths = (WindowsPath('test_onboard_data/config.json'), WindowsPath('test_onboard_data/workspace'))
+
+    def test_onboard_existing_config_refresh(mock_paths):
+        """Config exists, user declines overwrite — should refresh (load-merge-save)."""
+        config_file, workspace_dir = mock_paths
+        config_file.write_text('{"existing": true}')
+    
+        result = runner.invoke(app, ["onboard"], input="n\n")
+    
+        assert result.exit_code == 0
+        assert "Config already exists" in result.stdout
+>       assert "existing values preserved" in result.stdout
+E       assert 'existing values preserved' in 'Config already exists at test_onboard_data\\config.json\n  y = overwrite with defaults (existing values will be lost)...ys\n  2. Chat: nanobot agent -m "Hello!"\n\nWant Telegram/WhatsApp? See: https://github.com/HKUDS/nanobot#-chat-apps\n'
+E        +  where 'Config already exists at test_onboard_data\\config.json\n  y = overwrite with defaults (existing values will be lost)...ys\n  2. Chat: nanobot agent -m "Hello!"\n\nWant Telegram/WhatsApp? See: https://github.com/HKUDS/nanobot#-chat-apps\n' = <Result okay>.stdout
+
+..\..\nanobot\tests\test_commands.py:67: AssertionError
+============================== warnings summary ===============================
+..\..\AppData\Roaming\Python\Python314\site-packages\litellm\litellm_core_utils\logging_utils.py:273: 15 warnings
+  C:\Users\HP\AppData\Roaming\Python\Python314\site-packages\litellm\litellm_core_utils\logging_utils.py:273: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead
+    if asyncio.iscoroutinefunction(func):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_commands.py::test_onboard_existing_config_refresh - assert ...
+================== 1 failed, 62 passed, 15 warnings in 7.36s ==================

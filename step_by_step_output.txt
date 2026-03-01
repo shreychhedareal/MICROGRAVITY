@@ -1,0 +1,390 @@
+﻿python : INFO - 
+At line:1 char:1
++ python 
+test_swarm_simple.py 
+2>&1 | Out-File 
+-Encoding utf8 
+step_by_st ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (INFO - :Strin   
+ g) [], RemoteExcep    
+tion
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+\U0001f9ec\U0001f9ec\U0
+001f9ec\U0001f9ec\U0001
+f9ec\U0001f9ec\U0001f9e
+c\U0001f9ec\U0001f9ec\U
+0001f9ec\U0001f9ec\U000
+1f9ec\U0001f9ec\U0001f9
+ec\U0001f9ec\U0001f9ec\
+U0001f9ec\U0001f9ec\U00
+01f9ec\U0001f9ec\U0001f
+9ec\U0001f9ec\U0001f9ec
+\U0001f9ec\U0001f9ec\U0
+001f9ec\U0001f9ec\U0001
+f9ec\U0001f9ec\U0001f9e
+c
+INFO - NANOBOT SWARM 
+ARCHITECTURE 
+VERIFICATION
+INFO - \U0001f9ec\U0001
+f9ec\U0001f9ec\U0001f9e
+c\U0001f9ec\U0001f9ec\U
+0001f9ec\U0001f9ec\U000
+1f9ec\U0001f9ec\U0001f9
+ec\U0001f9ec\U0001f9ec\
+U0001f9ec\U0001f9ec\U00
+01f9ec\U0001f9ec\U0001f
+9ec\U0001f9ec\U0001f9ec
+\U0001f9ec\U0001f9ec\U0
+001f9ec\U0001f9ec\U0001
+f9ec\U0001f9ec\U0001f9e
+c\U0001f9ec\U0001f9ec\U
+0001f9ec
+
+INFO - ================
+=======================
+=====================
+INFO - STEP 1: Core 
+Engine Components
+INFO - ================
+=======================
+=====================
+INFO - [test_agent 
+FSM] Transition: IDLE 
+-> OPERATIONAL. 
+Reason: Starting task
+INFO - [test_agent 
+FSM] Transition: 
+OPERATIONAL -> 
+COMPLETED. Reason: 
+Task done
+INFO -   \u2705 FSM: 
+States transition 
+correctly (IDLE -> 
+OPERATIONAL -> 
+COMPLETED)
+INFO -   \u2705 DuckDB 
+Ledger: Node inserted 
+& status updated -> 
+RUNNING
+INFO - Ledger Updated: 
+operator -> agent_a [53
+a949b9-86de-412c-b5e3-3
+2e3d9da7c9f]
+INFO -   \u2705 Memory 
+Adapter: State saved, 
+execution logged 
+(trace: 53a949b9...)
+INFO -   \u2705 
+Concept Standardizer: 
+'Unmapped_Phenomenon' 
+-> Protocol: Log for 
+MetaCognitive review.
+INFO - \u2728 
+Experiential Learning 
+Complete. Path 
+Function isolated into 
+IP [2b6dca6b-e49c-45ed-
+9b5d-cb68e9f48393].
+INFO -   \u2705 
+Experiential Learning: 
+Process IP 
+internalized 
+(2b6dca6b...)
+INFO -   \u2705 
+Knowledge Indexer: 
+Exploit query returned 
+-> None
+INFO - \u23f3 Task 
+Enqueued: [fef23aa7-e96
+8-4f5d-a1be-14d93d17d09
+6] -> agent_a
+INFO - \u2705 One-Off 
+Task Completed: [fef23a
+a7-e968-4f5d-a1be-14d93
+d17d096].
+INFO -   \u2705 
+Durable Event Bus: 
+Task fef23aa7... 
+enqueued and completed
+INFO -   \U0001f389 
+STEP 1 PASSED: All 
+core engine components 
+working.
+
+INFO - ================
+=======================
+=====================
+INFO - STEP 2: 
+Execution Pipeline
+INFO - ================
+=======================
+=====================
+INFO -   \u2705 
+Pipeline Validator: 
+JSON validated against 
+schema -> name=test, 
+value=42
+INFO - Hypothesis 
+Confirmed. Actual 
+result aligns with 
+anticipation.
+INFO -   \u2705 
+Hypothesis Engine: 
+Hypothesis holds = True
+INFO -   \u2705 
+Analytical Scripts: 
+Regex enforcement 
+passed = True 
+(Analysis Passed.)
+INFO -   \U0001f389 
+STEP 2 PASSED: 
+Execution pipeline is 
+functional.
+
+INFO - ================
+=======================
+=====================
+INFO - STEP 3: Vector 
+Store & Semantic 
+Routing
+INFO - ================
+=======================
+=====================
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Write a 
+python scrip' -> 
+mapped to [QASeeker] 
+(Score: 0.93)
+INFO -   \u26a0\ufe0f 
+(got QASeeker) 'Write 
+a python script to 
+calculate 
+fibonacci...' -> 
+QASeeker
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Monitor 
+system CPU u' -> 
+mapped to 
+[SystemSeeker] (Score: 
+1.00)
+INFO -   \u2705 
+'Monitor system CPU 
+usage and kill runaway 
+pro...' -> SystemSeeker
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Find 
+information abo' -> 
+mapped to 
+[ResearchSeeker] 
+(Score: 1.00)
+INFO -   \u2705 'Find 
+information about 
+quantum computing...' 
+-> ResearchSeeker
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Design the 
+database ' -> mapped 
+to [ArchitectureEstimat
+or] (Score: 0.85)
+INFO -   \u2705 
+'Design the database 
+schema and estimate 
+hardw...' -> 
+ArchitectureEstimator
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Set up a 
+cron job to' -> mapped 
+to [SystemSeeker] 
+(Score: 1.00)
+INFO -   \u26a0\ufe0f 
+(got SystemSeeker) 
+'Set up a cron job to 
+run backups every 
+night...' -> 
+SystemSeeker
+INFO -   \U0001f389 
+STEP 3 PASSED: 
+Semantic vector 
+routing is functional.
+
+INFO - ================
+=======================
+=====================
+INFO - STEP 4: Agent 
+Layer (Import & Schema 
+Check)
+INFO - ================
+=======================
+=====================
+INFO -   \u2705 
+BaseSeekerAgent 
+imported
+INFO -   \u2705 
+NecessitySensor -> 
+Schema fields: ['existi
+ng_tools_to_use', 
+'new_tools_to_create', 
+'existing_agents_to_use
+', 'new_agents_to_creat
+e', 
+'dependency_graph', 
+'creation_reasoning', '
+estimated_time_seconds'
+, 'computational_weight
+', 
+'anticipated_result']
+INFO -   \u2705 
+InsightInternalizer -> 
+Schema fields: 
+['evaluated_insights', 
+'final_contextual_injec
+tion']
+INFO -   \u2705 
+ProcessAnalyzer -> 
+Schema fields: 
+['is_optimal', 'bottlen
+ecks_identified', 
+'error_patterns', 'sugg
+ested_alternatives', 
+'derived_insights']
+INFO -   \u2705 
+StrategyGrader -> 
+Schema fields: ['winnin
+g_strategy_id', 
+'grades', 'recommended_
+exploitation']
+INFO -   \u2705 
+OptimizationSeeker -> 
+Schema fields: 
+['directives', 
+'anticipated_impact', 
+'derived_insights']
+INFO -   \u2705 
+ActionSeeker -> Schema 
+fields: 
+['action_type', 
+'script_name', 
+'script_content', 
+'purpose', 'when_to', 
+'how_to', 
+'anticipated_result']
+INFO -   \u2705 
+CodingSeeker -> Schema 
+fields: ['file_path', 
+'code_content', 
+'language', 
+'code_memory']
+INFO -   \u2705 
+ArchitectureEstimator 
+-> Schema fields: 
+['design_patterns', 're
+factoring_suggestions',
+ 'resource_estimates', 
+'hardware_sizing']
+INFO -   \u2705 
+DevOpsSeeker -> Schema 
+fields: ['action', 
+'target_process', 
+'cron_interval']
+INFO -   \u2705 
+QASeeker -> Schema 
+fields: 
+['target_file', 
+'analysis_type', 
+'test_framework']
+INFO -   \u2705 
+ResearchSeeker -> 
+Schema fields: 
+['search_queries', 
+'expected_information']
+INFO -   \u2705 
+SystemSeeker -> Schema 
+fields: ['command', 
+'reasoning', 
+'is_safe', 
+'anticipated_result']
+INFO - 
+  \U0001f389 STEP 4 
+PASSED: All 12 
+specialized agents 
+imported successfully.
+
+INFO - ================
+=======================
+=====================
+INFO - STEP 5: 
+Operator Integration 
+(End-to-End)
+INFO - ================
+=======================
+=====================
+INFO - Operator 
+exploring plan for 
+Objective: obj_test_001
+INFO - \U0001f9e0 
+Mental Association 
+mapping: 'Write a 
+python scrip' -> 
+mapped to [QASeeker] 
+(Score: 0.93)
+INFO - Mental 
+Association suggested 
+QASeeker with score 
+0.99
+INFO - \u23f3 Task 
+Enqueued: [b31bf2a0-b16
+8-4d6d-857d-f70e946f749
+0] -> QASeeker
+INFO - Operator 
+dispatched task b31bf2a
+0-b168-4d6d-857d-f70e94
+6f7490 to QASeeker via 
+channel 
+agent_QASeeker_inbox
+INFO -   DAG Nodes in 
+Ledger: 2
+INFO -     -> 
+obj_test_001... | 
+Parent: ROOT | Agent: 
+operator_01 | Status: 
+RUNNING
+INFO -     -> 
+b31bf2a0-b168-4d... | 
+Parent: obj_test_001 | 
+Agent: QASeeker | 
+Status: PENDING
+INFO -   Semantic 
+Router selected agent: 
+QASeeker
+INFO -   Event Bus 
+active tasks: 1
+INFO -   \U0001f389 
+STEP 5 PASSED: Full 
+Operator -> Router -> 
+Dispatch flow works.
+
+INFO - ================
+=======================
+=====================
+INFO - RESULTS: 5 
+passed, 0 failed out 
+of 5 steps
+INFO - ================
+=======================
+=====================
+INFO - \u2705 ALL 
+ARCHITECTURE TESTS 
+PASSED!

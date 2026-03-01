@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spatial Understanding API Test UI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #3B68FF 0%, #2872E3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .left-panel, .right-panel {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            color: #2872E3;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #3B68FF;
+            box-shadow: 0 0 0 3px rgba(59, 104, 255, 0.1);
+        }
+
+        .file-upload {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-upload input[type=file] {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .file-upload-label {
+            display: block;
+            padding: 20px;
+            border: 3px dashed #3B68FF;
+            border-radius: 10px;
+            text-align: center;
+            background: #f8f9ff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .file-upload-label:hover {
+            background: #e8f0ff;
+            border-color: #2872E3;
+        }
+
+        .file-upload-label.has-file {
+            background: #e8f5e8;
+            border-color: #28a745;
+            color: #155724;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #3B68FF 0%, #2872E3 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(59, 104, 255, 0.3);
+        }
+
+        .btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            margin-top: 10px;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3B68FF;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .results {
+            display: none;
+        }
+
+        .result-section {
+            margin-bottom: 25px;
+        }
+
+        .result-section h3 {
+            color: #2872E3;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .coordinates-list {
+            max-height: 300px;
+            overflow-y: auto;
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            border: 1px solid #e9ecef;
+        }
+
+        .coordinate-item {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-left: 4px solid #3B68FF;
+        }
+
+        .coordinate-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .coordinate-label {
+            font-weight: 600;
+            color: #2872E3;
+            margin-bottom: 5px;
+        }
+
+        .coordinate-values {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            color: #495057;
+        }
+
+        .image-result {
+            text-align: center;
+        }
+
+        .result-image {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 15px;
+        }
+
+        .metadata {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            border: 1px solid #e9ecef;
+        }
+
+        .metadata-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid #f1f3f4;
+        }
+
+        .metadata-item:last-child {
+            border-bottom: none;
+        }
+
+        .metadata-key {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .metadata-value {
+            color: #6c757d;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #f5c6cb;
+            margin-top: 15px;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #c3e6cb;
+            margin-top: 15px;
+        }
+
+        .api-status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            z-index: 1000;
+        }
+
+        .api-status.online {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .api-status.offline {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .examples {
+            margin-top: 20px;
+        }
+
+        .example-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .example-image {
+            width: 100%;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .example-image:hover {
+            border-color: #3B68FF;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .api-status {
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="apiStatus" class="api-status offline">🔴 API Offline</div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Spatial Understanding API</h1>
+            <p>Test interface for object detection, bounding boxes, and spatial analysis</p>
+        </div>
+
+        <div class="main-content">
+            <div class="left-panel">
+                <h2 class="section-title">📤 Input Configuration</h2>
+                
+                <form id="detectionForm">
+                    <div class="form-group">
+                        <label for="imageInput">Upload Image</label>
+                        <div class="file-upload">
+                            <input type="file" id="imageInput" accept="image/*" required>
+                            <label for="imageInput" class="file-upload-label" id="fileLabel">
+                                📁 Click to select an image or drag & drop
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="detectType">Detection Type</label>
+                        <select id="detectType" class="form-control" required>
+                            <option value="">Select detection type...</option>
+                            <option value="2d_bounding_boxes">2D Bounding Boxes</option>
+                            <option value="3d_bounding_boxes">3D Bounding Boxes</option>
+                            <option value="points">Points</option>
+                            <option value="segmentation_masks">Segmentation Masks</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="outputMode">Output Mode</label>
+                        <select id="outputMode" class="form-control">
+                            <option value="both">Both (Coordinates + Image)</option>
+                            <option value="coordinates_only">Coordinates Only</option>
+                            <option value="image_only">Image Only</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="prompt">Custom Prompt (Optional)</label>
+                        <textarea id="prompt" class="form-control" rows="3" placeholder="Enter custom prompt or leave empty for default..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="temperature">Temperature: <span id="tempValue">0.5</span></label>
+                        <input type="range" id="temperature" min="0" max="1" step="0.1" value="0.5" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="maxResults">Max Results</label>
+                        <input type="number" id="maxResults" class="form-control" min="1" max="25" value="10">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="showCoordinates" checked> Show coordinates on image
+                        </label>
+                    </div>
+
+                    <div class="form-group" id="fovGroup" style="display: none;">
+                        <label for="fov">Field of View (3D): <span id="fovValue">60</span>°</label>
+                        <input type="range" id="fov" min="30" max="120" step="5" value="60" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="imageScale">Image Scale: <span id="scaleValue">1.0</span>x</label>
+                        <input type="range" id="imageScale" min="0.5" max="2.0" step="0.1" value="1.0" class="form-control">
+                    </div>
+
+                    <button type="submit" class="btn" id="detectBtn">🚀 Detect Objects</button>
+                    <button type="button" class="btn btn-secondary" id="clearBtn">🗑️ Clear Results</button>
+                </form>
+
+                <div class="examples">
+                    <h3 class="section-title">📷 Example Images</h3>
+                    <div class="example-images">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=200&fit=crop" 
+                             class="example-image" alt="Mountain landscape" title="Mountain landscape">
+                        <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=200&h=200&fit=crop" 
+                             class="example-image" alt="Breakfast" title="Breakfast scene">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=200&h=200&fit=crop" 
+                             class="example-image" alt="Dog" title="Dog portrait">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=200&h=200&fit=crop" 
+                             class="example-image" alt="Kitchen" title="Kitchen scene">
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <h2 class="section-title">📊 Results</h2>
+                
+                <div id="loading" class="loading">
+                    <div class="spinner"></div>
+                    <p>Processing image with AI...</p>
+                </div>
+
+                <div id="results" class="results">
+                    <div class="result-section" id="coordinatesSection">
+                        <h3>📍 Detected Coordinates</h3>
+                        <div id="coordinatesList" class="coordinates-list"></div>
+                    </div>
+
+                    <div class="result-section" id="imageSection">
+                        <h3>🖼️ Annotated Image</h3>
+                        <div class="image-result">
+                            <img id="resultImage" class="result-image" alt="Annotated result">
+                        </div>
+                    </div>
+
+                    <div class="result-section">
+                        <h3>📋 Metadata</h3>
+                        <div id="metadata" class="metadata"></div>
+                    </div>
+                </div>
+
+                <div id="error" class="error" style="display: none;"></div>
+                <div id="success" class="success" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const API_BASE_URL = 'http://localhost:3001/api';
+        
+        // DOM elements
+        const form = document.getElementById('detectionForm');
+        const imageInput = document.getElementById('imageInput');
+        const fileLabel = document.getElementById('fileLabel');
+        const detectType = document.getElementById('detectType');
+        const outputMode = document.getElementById('outputMode');
+        const prompt = document.getElementById('prompt');
+        const temperature = document.getElementById('temperature');
+        const tempValue = document.getElementById('tempValue');
+        const maxResults = document.getElementById('maxResults');
+        const showCoordinates = document.getElementById('showCoordinates');
+        const fov = document.getElementById('fov');
+        const fovValue = document.getElementById('fovValue');
+        const fovGroup = document.getElementById('fovGroup');
+        const imageScale = document.getElementById('imageScale');
+        const scaleValue = document.getElementById('scaleValue');
+        const detectBtn = document.getElementById('detectBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+        const coordinatesSection = document.getElementById('coordinatesSection');
+        const coordinatesList = document.getElementById('coordinatesList');
+        const imageSection = document.getElementById('imageSection');
+        const resultImage = document.getElementById('resultImage');
+        const metadata = document.getElementById('metadata');
+        const errorDiv = document.getElementById('error');
+        const successDiv = document.getElementById('success');
+        const apiStatus = document.getElementById('apiStatus');
+        const exampleImages = document.querySelectorAll('.example-image');
+
+        // Initialize
+        checkApiStatus();
+        setupEventListeners();
+
+        async function checkApiStatus() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`);
+                const data = await response.json();
+                
+                if (data.status === 'ok' && data.geminiServiceReady) {
+                    apiStatus.textContent = '🟢 API Online';
+                    apiStatus.className = 'api-status online';
+                } else {
+                    apiStatus.textContent = '🟡 API Degraded (Check Gemini Key)';
+                    apiStatus.className = 'api-status offline';
+                }
+            } catch (error) {
+                apiStatus.textContent = '🔴 API Offline';
+                apiStatus.className = 'api-status offline';
+            }
+        }
+
+        function setupEventListeners() {
+            // File input
+            imageInput.addEventListener('change', handleFileSelect);
+            
+            // Detection type change
+            detectType.addEventListener('change', (e) => {
+                fovGroup.style.display = e.target.value === '3d_bounding_boxes' ? 'block' : 'none';
+            });
+
+            // Range inputs
+            temperature.addEventListener('input', (e) => {
+                tempValue.textContent = e.target.value;
+            });
+
+            fov.addEventListener('input', (e) => {
+                fovValue.textContent = e.target.value;
+            });
+
+            imageScale.addEventListener('input', (e) => {
+                scaleValue.textContent = e.target.value;
+            });
+
+            // Form submission
+            form.addEventListener('submit', handleDetection);
+            
+            // Clear button
+            clearBtn.addEventListener('click', clearResults);
+
+            // Example images
+            exampleImages.forEach(img => {
+                img.addEventListener('click', () => loadExampleImage(img.src));
+            });
+
+            // Drag and drop
+            setupDragAndDrop();
+        }
+
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                fileLabel.textContent = `📁 ${file.name}`;
+                fileLabel.classList.add('has-file');
+            }
+        }
+
+        async function loadExampleImage(url) {
+            try {
+                const response = await fetch(url);
+                const blob = await response.blob();
+                const file = new File([blob], 'example.jpg', { type: 'image/jpeg' });
+                
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(file);
+                imageInput.files = dataTransfer.files;
+                
+                fileLabel.textContent = `📁 ${file.name} (Example)`;
+                fileLabel.classList.add('has-file');
+            } catch (error) {
+                showError('Failed to load example image: ' + error.message);
+            }
+        }
+
+        function setupDragAndDrop() {
+            const dropZone = fileLabel;
+
+            dropZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropZone.style.background = '#e8f0ff';
+            });
+
+            dropZone.addEventListener('dragleave', () => {
+                dropZone.style.background = '#f8f9ff';
+            });
+
+            dropZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropZone.style.background = '#f8f9ff';
+                
+                const files = e.dataTransfer.files;
+                if (files.length > 0 && files[0].type.startsWith('image/')) {
+                    imageInput.files = files;
+                    handleFileSelect({ target: { files } });
+                }
+            });
+        }
+
+        async function handleDetection(e) {
+            e.preventDefault();
+            
+            if (!imageInput.files[0]) {
+                showError('Please select an image first');
+                return;
+            }
+
+            showLoading();
+            clearMessages();
+
+            try {
+                const formData = new FormData();
+                formData.append('imageFile', imageInput.files[0]);
+                formData.append('detectType', detectType.value);
+                formData.append('outputMode', outputMode.value);
+                formData.append('temperature', temperature.value);
+                formData.append('maxResults', maxResults.value);
+                formData.append('showCoordinates', showCoordinates.checked);
+                formData.append('fov', fov.value);
+                formData.append('imageScale', imageScale.value);
+                
+                if (prompt.value.trim()) {
+                    formData.append('prompt', prompt.value.trim());
+                }
+
+                const response = await fetch(`${API_BASE_URL}/detect`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data);
+                    showSuccess(`Detection completed! Found ${data.metadata.resultCount} items.`);
+                } else {
+                    showError(data.error + (data.details ? ': ' + data.details : ''));
+                }
+            } catch (error) {
+                showError('Request failed: ' + error.message);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        function displayResults(data) {
+            // Show coordinates
+            if (data.coordinates) {
+                coordinatesList.innerHTML = '';
+                data.coordinates.forEach((coord, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'coordinate-item';
+                    
+                    let coordText = '';
+                    if (data.detectType === '2d_bounding_boxes' || data.detectType === 'segmentation_masks') {
+                        coordText = `x: ${coord.x.toFixed(3)}, y: ${coord.y.toFixed(3)}, width: ${coord.width.toFixed(3)}, height: ${coord.height.toFixed(3)}`;
+                    } else if (data.detectType === '3d_bounding_boxes') {
+                        coordText = `center: [${coord.center.map(c => c.toFixed(2)).join(', ')}], size: [${coord.size.map(s => s.toFixed(2)).join(', ')}]`;
+                    } else if (data.detectType === 'points') {
+                        coordText = `x: ${coord.point.x.toFixed(3)}, y: ${coord.point.y.toFixed(3)}`;
+                    }
+                    
+                    item.innerHTML = `
+                        <div class="coordinate-label">${coord.label}</div>
+                        <div class="coordinate-values">${coordText}</div>
+                    `;
+                    coordinatesList.appendChild(item);
+                });
+                coordinatesSection.style.display = 'block';
+            } else {
+                coordinatesSection.style.display = 'none';
+            }
+
+            // Show annotated image
+            if (data.annotatedImage) {
+                resultImage.src = data.annotatedImage;
+                imageSection.style.display = 'block';
+            } else {
+                imageSection.style.display = 'none';
+            }
+
+            // Show metadata
+            metadata.innerHTML = '';
+            Object.entries(data.metadata).forEach(([key, value]) => {
+                const item = document.createElement('div');
+                item.className = 'metadata-item';
+                item.innerHTML = `
+                    <span class="metadata-key">${key}:</span>
+                    <span class="metadata-value">${typeof value === 'object' ? JSON.stringify(value) : value}</span>
+                `;
+                metadata.appendChild(item);
+            });
+
+            results.style.display = 'block';
+        }
+
+        function showLoading() {
+            loading.style.display = 'block';
+            results.style.display = 'none';
+            detectBtn.disabled = true;
+            detectBtn.textContent = '⏳ Processing...';
+        }
+
+        function hideLoading() {
+            loading.style.display = 'none';
+            detectBtn.disabled = false;
+            detectBtn.textContent = '🚀 Detect Objects';
+        }
+
+        function clearResults() {
+            results.style.display = 'none';
+            clearMessages();
+            form.reset();
+            fileLabel.textContent = '📁 Click to select an image or drag & drop';
+            fileLabel.classList.remove('has-file');
+            fovGroup.style.display = 'none';
+            tempValue.textContent = '0.5';
+            fovValue.textContent = '60';
+            scaleValue.textContent = '1.0';
+        }
+
+        function showError(message) {
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            successDiv.style.display = 'none';
+        }
+
+        function showSuccess(message) {
+            successDiv.textContent = message;
+            successDiv.style.display = 'block';
+            errorDiv.style.display = 'none';
+        }
+
+        function clearMessages() {
+            errorDiv.style.display = 'none';
+            successDiv.style.display = 'none';
+        }
+
+        // Check API status periodically
+        setInterval(checkApiStatus, 30000);
+    </script>
+</body>
+</html> 

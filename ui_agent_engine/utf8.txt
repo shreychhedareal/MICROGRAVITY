@@ -1,0 +1,64 @@
+﻿
+--- Testing Teach Mode Kinesthetic Recording ---
+[Teach Mode] Starting Observation...
+[Teach Mode] Listening for user interactions...
+
+Please click around and press some keys (like Enter or Tab)...
+Recording will stop in 10 seconds.
+[Teach Mode] Recorded: click at {'x': 1358, 'y': 583, 'button': 'Button.left'}
+[Teach Mode] Recorded: click at {'x': 1032, 'y': 518, 'button': 'Button.left'}
+[Teach Mode] Recorded: click at {'x': 1326, 'y': 380, 'button': 'Button.left'}
+[Teach Mode] Recorded: click at {'x': 1300, 'y': 429, 'button': 'Button.left'}
+[Teach Mode] Stopping Observation...
+[Teach Mode] Recorded: click at {'x': 1323, 'y': 553, 'button': 'Button.left'}
+[Teach Mode] Captured 5 significant actions.
+
+--- Recording Finished ---
+Captured 5 kinesthetic events.
+
+Sending to VLM (Gemini 2.5 Flash) for testing...
+[Teach Mode] Sending 5 steps to VLM for summarization...
+Failed to load images for step 1: 'NoneType' object has no attribute 'read'
+[Teach Mode] Awaiting Gemini 2.5 Flash Multi-Modal Analysis...
+
+--- VLM Summary Result ---
+{
+  "semantic_purpose": "The user is initiating and observing the execution of a Python command within a development environment, which involves setting execution preferences, starting the command, and granting necessary permissions for a UI automation script to run.",
+  "ActionBlueprints": [
+    {
+      "action_type": "click",
+      "target_x": 1358,
+      "target_y": 583,
+      "target_label": "Always run button",
+      "easing_func": "ease_out_quad"
+    },
+    {
+      "action_type": "click",
+      "target_x": 1032,
+      "target_y": 518,
+      "target_label": "Command display area",
+      "easing_func": "ease_out_quad"
+    },
+    {
+      "action_type": "click",
+      "target_x": 1326,
+      "target_y": 380,
+      "target_label": "Run command button",
+      "easing_func": "ease_out_quad"
+    },
+    {
+      "action_type": "click",
+      "target_x": 1300,
+      "target_y": 429,
+      "target_label": "Run button",
+      "easing_func": "ease_out_quad"
+    },
+    {
+      "action_type": "click",
+      "target_x": 1323,
+      "target_y": 553,
+      "target_label": "Run Alt+R button in Antigravity permission dialog",
+      "easing_func": "ease_out_quad"
+    }
+  ]
+}

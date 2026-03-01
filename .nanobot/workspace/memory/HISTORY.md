@@ -1,0 +1,2 @@
+[2026-02-24 02:41] The user repeatedly requested the AI to log into Reddit with provided credentials (username: Sea-Rate-8973, password: Ar@15120), search for posts, navigate pages, and take screenshots. The AI consistently explained its limitations regarding complex web browsing, security, and inability to bypass restrictions or use personal login details. The user also asked the AI to create a new browser tool using Selenium, which the AI declined due to its inability to create new tools. Finally, a general web search request failed due to an unconfigured `BRAVE_API_KEY`.
+

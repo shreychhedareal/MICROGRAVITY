@@ -1,0 +1,1427 @@
+=== GUI Elements Map ===
+
+ID:          1
+Label:       Notification Icon
+Description: System tray icon indicating notifications or alerts.
+Coordinates: x=1170, y=752, width=6, height=6
+--------------------------------------------------
+ID:          2
+Label:       Date Display
+Description: Displays the current date on the Windows taskbar.
+Coordinates: x=1009, y=743, width=7, height=6
+--------------------------------------------------
+ID:          3
+Label:       Clock Display
+Description: Displays the current time on the Windows taskbar.
+Coordinates: x=1038, y=757, width=8, height=6
+--------------------------------------------------
+ID:          4
+Label:       Text: predicted_outputs
+Description: A subdirectory name ('predicted_outputs') mentioned at the end of a task description in the editor.
+Coordinates: x=317, y=631, width=8, height=6
+--------------------------------------------------
+ID:          5
+Label:       Text: [5]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=317, y=521, width=8, height=6
+--------------------------------------------------
+ID:          6
+Label:       Text: [6]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=317, y=499, width=8, height=6
+--------------------------------------------------
+ID:          7
+Label:       Text: [7]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=317, y=477, width=8, height=6
+--------------------------------------------------
+ID:          8
+Label:       Text: [8]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=317, y=455, width=8, height=6
+--------------------------------------------------
+ID:          9
+Label:       Text: Try & Verify
+Description: Part of a task description, indicating an action or status.
+Coordinates: x=317, y=389, width=8, height=6
+--------------------------------------------------
+ID:          10
+Label:       File: introspecton.py
+Description: A Python file named 'introspecton.py' in the VS Code file explorer.
+Coordinates: x=317, y=367, width=8, height=6
+--------------------------------------------------
+ID:          11
+Label:       Folder: agent
+Description: A directory named 'agent' in the VS Code file explorer.
+Coordinates: x=317, y=123, width=8, height=6
+--------------------------------------------------
+ID:          12
+Label:       Folder: nanobot
+Description: A directory named 'nanobot' in the VS Code file explorer.
+Coordinates: x=317, y=101, width=8, height=6
+--------------------------------------------------
+ID:          13
+Label:       Text: [13]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=888, y=350, width=9, height=6
+--------------------------------------------------
+ID:          14
+Label:       Windows Start Button
+Description: Opens the Windows Start menu.
+Coordinates: x=279, y=755, width=7, height=8
+--------------------------------------------------
+ID:          15
+Label:       Text: [15]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=707, y=740, width=8, height=7
+--------------------------------------------------
+ID:          16
+Label:       Text: [16]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=604, y=441, width=10, height=6
+--------------------------------------------------
+ID:          17
+Label:       Network Status Icon
+Description: System tray icon indicating internet or network connectivity status.
+Coordinates: x=1098, y=752, width=9, height=7
+--------------------------------------------------
+ID:          18
+Label:       Text: [18]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=1040, y=601, width=9, height=7
+--------------------------------------------------
+ID:          19
+Label:       Text: [19]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=1088, y=600, width=9, height=7
+--------------------------------------------------
+ID:          20
+Label:       Text: [20]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=1064, y=600, width=9, height=7
+--------------------------------------------------
+ID:          21
+Label:       Text: [21]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=815, y=259, width=11, height=6
+--------------------------------------------------
+ID:          22
+Label:       Battery Status Icon
+Description: System tray icon displaying the current battery level and charging status.
+Coordinates: x=1121, y=751, width=10, height=7
+--------------------------------------------------
+ID:          23
+Label:       Windows Search Icon
+Description: Opens the Windows search interface.
+Coordinates: x=370, y=740, width=10, height=7
+--------------------------------------------------
+ID:          24
+Label:       VS Code Taskbar Icon
+Description: Application icon for Visual Studio Code pinned to the taskbar.
+Coordinates: x=772, y=739, width=10, height=7
+--------------------------------------------------
+ID:          25
+Label:       Speaker/Volume Icon
+Description: System tray icon for controlling audio volume and output devices.
+Coordinates: x=1187, y=727, width=12, height=6
+--------------------------------------------------
+ID:          26
+Label:       Git Branch Indicator
+Description: VS Code status bar element showing the current Git branch ('main*') and indicating uncommitted changes.
+Coordinates: x=163, y=727, width=12, height=6
+--------------------------------------------------
+ID:          27
+Label:       Text: [27]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=569, y=584, width=12, height=6
+--------------------------------------------------
+ID:          28
+Label:       Text: [28]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=455, y=350, width=12, height=6
+--------------------------------------------------
+ID:          29
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=934, y=761, width=11, height=7
+--------------------------------------------------
+ID:          30
+Label:       Text: [30]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=741, y=759, width=9, height=9
+--------------------------------------------------
+ID:          31
+Label:       Language Input Indicator
+Description: System tray indicator showing the currently selected keyboard input language ('ENG').
+Coordinates: x=1027, y=741, width=9, height=9
+--------------------------------------------------
+ID:          32
+Label:       File Explorer Taskbar Icon
+Description: Application icon for Windows File Explorer pinned to the taskbar.
+Coordinates: x=659, y=733, width=12, height=7
+--------------------------------------------------
+ID:          33
+Label:       Microsoft Edge Taskbar Icon
+Description: Application icon for the Microsoft Edge web browser pinned to the taskbar.
+Coordinates: x=595, y=743, width=12, height=7
+--------------------------------------------------
+ID:          34
+Label:       Text: [34]
+Description: A numerical placeholder within a progress update message in the 'Refining UI Memory System' panel.
+Coordinates: x=1219, y=156, width=14, height=6
+--------------------------------------------------
+ID:          35
+Label:       Text: [35]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=807, y=288, width=14, height=6
+--------------------------------------------------
+ID:          36
+Label:       Text: init.py
+Description: A Python file name ('init.py') mentioned within a task description in the editor.
+Coordinates: x=701, y=266, width=11, height=8
+--------------------------------------------------
+ID:          37
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=638, y=740, width=9, height=10
+--------------------------------------------------
+ID:          38
+Label:       Google Chrome Taskbar Icon
+Description: Application icon for the Google Chrome web browser pinned to the taskbar.
+Coordinates: x=915, y=758, width=13, height=7
+--------------------------------------------------
+ID:          39
+Label:       Text: [39]
+Description: A numerical placeholder within a task description in the editor.
+Coordinates: x=798, y=418, width=13, height=7
+--------------------------------------------------
+ID:          40
+Label:       Weather Widget
+Description: Windows taskbar widget displaying current weather information ('27°C Sunny').
+Coordinates: x=189, y=745, width=12, height=8
+--------------------------------------------------
+ID:          41
+Label:       User Profile/Activity Icon with Badge
+Description: An icon representing a user profile or activity, with a badge indicating a notification or pending action.
+Coordinates: x=1286, y=732, width=12, height=8
+--------------------------------------------------
+ID:          42
+Label:       Command Line Text: python api_vision_processor.py
+Description: A command line instruction being executed or displayed in a terminal output.
+Coordinates: x=1307, y=293, width=12, height=8
+--------------------------------------------------
+ID:          43
+Label:       Text: inspection.py
+Description: A highlighted file name or code reference within the task description.
+Coordinates: x=378, y=379, width=16, height=6
+--------------------------------------------------
+ID:          44
+Label:       User Profile/Activity Icon with Badge
+Description: An icon representing a user profile or activity, with a badge indicating a notification or pending action.
+Coordinates: x=1032, y=12, width=8, height=12
+--------------------------------------------------
+ID:          45
+Label:       Google Chrome Icon
+Description: Taskbar icon for the Google Chrome web browser.
+Coordinates: x=678, y=762, width=17, height=6
+--------------------------------------------------
+ID:          46
+Label:       Text: Antigravity - Settings
+Description: A title or header for a settings panel or section.
+Coordinates: x=1266, y=701, width=17, height=6
+--------------------------------------------------
+ID:          47
+Label:       Text: Outline
+Description: A section header in the VS Code sidebar, likely for code structure or navigation.
+Coordinates: x=73, y=679, width=17, height=6
+--------------------------------------------------
+ID:          48
+Label:       File Explorer Icon
+Description: Taskbar icon for the File Explorer application.
+Coordinates: x=162, y=743, width=13, height=8
+--------------------------------------------------
+ID:          49
+Label:       Terminal Icon
+Description: Taskbar icon for a terminal or command prompt application.
+Coordinates: x=259, y=742, width=13, height=8
+--------------------------------------------------
+ID:          50
+Label:       Microsoft Edge Icon
+Description: Taskbar icon for the Microsoft Edge web browser.
+Coordinates: x=190, y=739, width=13, height=8
+--------------------------------------------------
+ID:          51
+Label:       Google Chrome Icon
+Description: Taskbar icon for the Google Chrome web browser.
+Coordinates: x=703, y=728, width=13, height=8
+--------------------------------------------------
+ID:          52
+Label:       User Profile/Activity Icon with Badge
+Description: An icon representing a user profile or activity, with a badge indicating a notification or pending action.
+Coordinates: x=1330, y=680, width=18, height=6
+--------------------------------------------------
+ID:          53
+Label:       Date
+Description: System tray display of the current date (28-02-2026).
+Coordinates: x=1330, y=660, width=18, height=6
+--------------------------------------------------
+ID:          54
+Label:       Settings Icon
+Description: An icon to access application settings or preferences.
+Coordinates: x=1088, y=11, width=8, height=14
+--------------------------------------------------
+ID:          55
+Label:       Language and Input Method Indicator
+Description: System tray text indicating the current input language and method (English, India).
+Coordinates: x=1190, y=761, width=17, height=7
+--------------------------------------------------
+ID:          56
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=166, y=761, width=17, height=7
+--------------------------------------------------
+ID:          57
+Label:       Weather Icon and Temperature
+Description: Displays the current weather condition (sun with clouds) and temperature (17°C).
+Coordinates: x=26, y=742, width=15, height=8
+--------------------------------------------------
+ID:          58
+Label:       User Profile/Activity Icon with Badge
+Description: An icon representing a user profile or activity, with a badge indicating a notification or pending action.
+Coordinates: x=1333, y=667, width=11, height=11
+--------------------------------------------------
+ID:          59
+Label:       Volume Control Icon
+Description: System tray icon for adjusting system volume.
+Coordinates: x=976, y=737, width=14, height=9
+--------------------------------------------------
+ID:          60
+Label:       Google Chrome Icon
+Description: Taskbar icon for the Google Chrome web browser.
+Coordinates: x=208, y=737, width=14, height=9
+--------------------------------------------------
+ID:          61
+Label:       Text: labeling
+Description: Part of a status message indicating a process related to labeling.
+Coordinates: x=1126, y=389, width=21, height=6
+--------------------------------------------------
+ID:          62
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=603, y=425, width=14, height=9
+--------------------------------------------------
+ID:          63
+Label:       Time
+Description: System tray display of the current time (23:52).
+Coordinates: x=885, y=759, width=22, height=6
+--------------------------------------------------
+ID:          64
+Label:       User Profile/Activity Icon with Badge
+Description: An icon representing a user profile or activity, with a badge indicating a notification or pending action.
+Coordinates: x=1349, y=734, width=11, height=12
+--------------------------------------------------
+ID:          65
+Label:       Microsoft Edge Icon
+Description: Taskbar icon for the Microsoft Edge web browser.
+Coordinates: x=665, y=726, width=22, height=6
+--------------------------------------------------
+ID:          66
+Label:       Command Line Text: python api_vision_processor.py
+Description: A command line instruction being executed or displayed in a terminal output.
+Coordinates: x=1307, y=272, width=12, height=11
+--------------------------------------------------
+ID:          67
+Label:       Text: screen.py
+Description: A highlighted file name or code reference within the task description.
+Coordinates: x=607, y=584, width=22, height=6
+--------------------------------------------------
+ID:          68
+Label:       System Tray Expand Icon
+Description: An arrow icon to expand or collapse hidden icons in the system tray.
+Coordinates: x=1021, y=730, width=15, height=9
+--------------------------------------------------
+ID:          69
+Label:       Text: short-term diagnostics
+Description: A highlighted phrase or label within the task description.
+Coordinates: x=583, y=584, width=23, height=6
+--------------------------------------------------
+ID:          70
+Label:       Text: Sunny
+Description: Description of the current weather condition.
+Coordinates: x=789, y=516, width=23, height=6
+--------------------------------------------------
+ID:          71
+Label:       Network Status Icon
+Description: System tray icon showing the status of the network connection (Wi-Fi).
+Coordinates: x=928, y=734, width=14, height=10
+--------------------------------------------------
+ID:          72
+Label:       Microsoft Teams Icon
+Description: Taskbar icon for the Microsoft Teams communication application.
+Coordinates: x=221, y=756, width=16, height=9
+--------------------------------------------------
+ID:          73
+Label:       File Explorer Icon
+Description: Taskbar icon for the File Explorer application.
+Coordinates: x=595, y=733, width=18, height=8
+--------------------------------------------------
+ID:          74
+Label:       Text: import
+Description: A highlighted keyword or code element within the task description.
+Coordinates: x=782, y=288, width=24, height=6
+--------------------------------------------------
+ID:          75
+Label:       Text: nanobot/agent/tools/evolution.py
+Description: A highlighted file path or module reference within the task description.
+Coordinates: x=681, y=357, width=20, height=8
+--------------------------------------------------
+ID:          76
+Label:       Notification Bell Icon
+Description: System tray icon indicating notifications.
+Coordinates: x=903, y=738, width=12, height=14
+--------------------------------------------------
+ID:          77
+Label:       Text: Timeline
+Description: A section header in the VS Code sidebar, likely for version history or activity logs.
+Coordinates: x=43, y=701, width=24, height=7
+--------------------------------------------------
+ID:          78
+Label:       Text: init.py
+Description: A highlighted file name or code reference within the task description.
+Coordinates: x=505, y=288, width=28, height=6
+--------------------------------------------------
+ID:          79
+Label:       Calendar Icon
+Description: Taskbar icon for a calendar application.
+Coordinates: x=283, y=743, width=19, height=9
+--------------------------------------------------
+ID:          80
+Label:       Add/New Item Icon
+Description: An icon to add a new item or expand a section.
+Coordinates: x=1244, y=12, width=16, height=11
+--------------------------------------------------
+ID:          81
+Label:       System Time
+Description: Displays the current system time, '23:52'.
+Coordinates: x=259, y=728, width=13, height=14
+--------------------------------------------------
+ID:          82
+Label:       Network Status Icon
+Description: Icon indicating the Wi-Fi network connectivity status.
+Coordinates: x=1181, y=738, width=16, height=12
+--------------------------------------------------
+ID:          83
+Label:       Active Tab Title
+Description: Title of the currently active editor tab, 'Walkthrough Refining UI Memory System'.
+Coordinates: x=530, y=40, width=32, height=6
+--------------------------------------------------
+ID:          84
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1140, y=749, width=22, height=9
+--------------------------------------------------
+ID:          85
+Label:       Navigate Right Button
+Description: Button to navigate forward in history or to the next item.
+Coordinates: x=977, y=46, width=20, height=10
+--------------------------------------------------
+ID:          86
+Label:       Settings Text
+Description: Text label for accessing application settings or preferences.
+Coordinates: x=309, y=49, width=20, height=10
+--------------------------------------------------
+ID:          87
+Label:       System Date
+Description: Displays the current system date, '02-2026'.
+Coordinates: x=1245, y=756, width=17, height=12
+--------------------------------------------------
+ID:          88
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1228, y=739, width=17, height=12
+--------------------------------------------------
+ID:          89
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1355, y=568, width=11, height=19
+--------------------------------------------------
+ID:          90
+Label:       Notification Icon
+Description: Icon indicating pending system notifications.
+Coordinates: x=1332, y=738, width=14, height=15
+--------------------------------------------------
+ID:          91
+Label:       Text: predicted_outputs
+Description: Text mentioned within the main content description.
+Coordinates: x=313, y=627, width=15, height=14
+--------------------------------------------------
+ID:          92
+Label:       Folder Name: providers
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=473, width=15, height=14
+--------------------------------------------------
+ID:          93
+Label:       File Name: ui_planner.py
+Description: A Python file listed in the file explorer.
+Coordinates: x=1042, y=727, width=20, height=11
+--------------------------------------------------
+ID:          94
+Label:       Run Action Button
+Description: A button or link to initiate a process, labeled 'run', at the bottom of the 'Progress Updates' section.
+Coordinates: x=1059, y=474, width=33, height=7
+--------------------------------------------------
+ID:          95
+Label:       Run Action Button
+Description: A button or link to initiate a process, labeled 'run', within the 'Progress Updates' section.
+Coordinates: x=1039, y=79, width=33, height=7
+--------------------------------------------------
+ID:          96
+Label:       Status Bar Text: main*
+Description: Text in the status bar, likely indicating the current Git branch or file status.
+Coordinates: x=183, y=728, width=26, height=9
+--------------------------------------------------
+ID:          97
+Label:       Windows Search Icon
+Description: Icon in the Windows taskbar to open the search utility.
+Coordinates: x=368, y=737, width=15, height=16
+--------------------------------------------------
+ID:          98
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=381, y=516, width=40, height=6
+--------------------------------------------------
+ID:          99
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=313, y=118, width=16, height=15
+--------------------------------------------------
+ID:          100
+Label:       Visual Studio Code Icon
+Description: Icon for the Visual Studio Code application pinned to the Windows taskbar.
+Coordinates: x=293, y=761, width=35, height=7
+--------------------------------------------------
+ID:          101
+Label:       Speaker/Volume Icon
+Description: Icon to control or indicate the system volume level.
+Coordinates: x=1204, y=738, width=18, height=14
+--------------------------------------------------
+ID:          102
+Label:       Microsoft Edge Icon
+Description: Icon for the Microsoft Edge web browser pinned to the Windows taskbar.
+Coordinates: x=941, y=738, width=23, height=11
+--------------------------------------------------
+ID:          103
+Label:       Timeline Section Header
+Description: Header for the 'Timeline' section in the sidebar.
+Coordinates: x=104, y=701, width=15, height=17
+--------------------------------------------------
+ID:          104
+Label:       Minimize Window Button
+Description: Standard window control to minimize the application window.
+Coordinates: x=1341, y=43, width=16, height=16
+--------------------------------------------------
+ID:          105
+Label:       Close Window Button
+Description: Standard window control to close the application window.
+Coordinates: x=1336, y=10, width=16, height=16
+--------------------------------------------------
+ID:          106
+Label:       Chat Input Area: Planning
+Description: An input area for chat or commands, indicating a 'Planning' mode or feature.
+Coordinates: x=1030, y=665, width=16, height=16
+--------------------------------------------------
+ID:          107
+Label:       Folder Name: skills
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=516, width=16, height=16
+--------------------------------------------------
+ID:          108
+Label:       Folder Name: session
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=494, width=16, height=16
+--------------------------------------------------
+ID:          109
+Label:       Folder Name: heartbeat
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=450, width=16, height=16
+--------------------------------------------------
+ID:          110
+Label:       Folder Name: config
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=384, width=16, height=16
+--------------------------------------------------
+ID:          111
+Label:       Folder Name: bus
+Description: A folder listed in the file explorer.
+Coordinates: x=313, y=362, width=16, height=16
+--------------------------------------------------
+ID:          112
+Label:       File Name: vectorstore.py
+Description: A Python file listed in the file explorer.
+Coordinates: x=314, y=297, width=16, height=16
+--------------------------------------------------
+ID:          113
+Label:       File Name: subagent.py
+Description: A Python file listed in the file explorer.
+Coordinates: x=314, y=275, width=16, height=16
+--------------------------------------------------
+ID:          114
+Label:       File Name: memory.py
+Description: A Python file listed in the file explorer.
+Coordinates: x=314, y=209, width=16, height=16
+--------------------------------------------------
+ID:          115
+Label:       Modified Status Indicator
+Description: An 'M' icon indicating that the associated file has been modified.
+Coordinates: x=314, y=165, width=16, height=16
+--------------------------------------------------
+ID:          116
+Label:       Task Status Text
+Description: Indicates the status and last update time of a task, 'Task 12 minutes ago'.
+Coordinates: x=313, y=96, width=16, height=16
+--------------------------------------------------
+ID:          117
+Label:       Text: init.py
+Description: File name mentioned within the main content description.
+Coordinates: x=533, y=288, width=29, height=9
+--------------------------------------------------
+ID:          118
+Label:       Text: utils
+Description: Folder name mentioned within the main content description.
+Coordinates: x=609, y=470, width=44, height=6
+--------------------------------------------------
+ID:          119
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1012, y=58, width=45, height=6
+--------------------------------------------------
+ID:          120
+Label:       Inactive Tab Title
+Description: Title of an inactive editor tab, 'live_test.py'.
+Coordinates: x=768, y=56, width=34, height=8
+--------------------------------------------------
+ID:          121
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=861, y=379, width=47, height=6
+--------------------------------------------------
+ID:          122
+Label:       Menu Item: File
+Description: Top-level menu item for file operations in the application.
+Coordinates: x=6, y=41, width=32, height=9
+--------------------------------------------------
+ID:          123
+Label:       Date and Time Display
+Description: Displays the current date and time: '28-02-2023 23:52'.
+Coordinates: x=1310, y=760, width=37, height=8
+--------------------------------------------------
+ID:          124
+Label:       Command Output Line
+Description: An output line showing a command being executed: 'agent_engine > python api_vision_processor.py'.
+Coordinates: x=1058, y=245, width=33, height=9
+--------------------------------------------------
+ID:          125
+Label:       Taskbar Icon: Visual Studio Code
+Description: Icon for the Visual Studio Code application pinned to the taskbar.
+Coordinates: x=758, y=726, width=34, height=9
+--------------------------------------------------
+ID:          126
+Label:       File Name: _init_.py
+Description: A Python initialization file named '_init_.py' listed in the file explorer.
+Coordinates: x=312, y=560, width=18, height=17
+--------------------------------------------------
+ID:          127
+Label:       File Name: memory.py
+Description: A Python script file named 'memory.py' listed in the file explorer.
+Coordinates: x=312, y=252, width=18, height=17
+--------------------------------------------------
+ID:          128
+Label:       File Name: machine_scanner.py
+Description: A Python script file named 'machine_scanner.py' listed in the file explorer.
+Coordinates: x=312, y=186, width=18, height=17
+--------------------------------------------------
+ID:          129
+Label:       File Name: loop.py
+Description: A Python script file named 'loop.py' listed in the file explorer.
+Coordinates: x=312, y=142, width=18, height=17
+--------------------------------------------------
+ID:          130
+Label:       Text: short_term/diagnostics
+Description: A file path or module name indicating a specific diagnostic component.
+Coordinates: x=646, y=584, width=51, height=6
+--------------------------------------------------
+ID:          131
+Label:       Text: ResolveIssueTool
+Description: Text referring to a tool or component designed for resolving issues.
+Coordinates: x=483, y=353, width=35, height=9
+--------------------------------------------------
+ID:          132
+Label:       Language Indicator: ENG
+Description: Indicates the current input language is English on the taskbar.
+Coordinates: x=1072, y=736, width=32, height=10
+--------------------------------------------------
+ID:          133
+Label:       Git Branch Indicator: main*
+Description: Indicates the current Git branch is 'main' and there are uncommitted changes.
+Coordinates: x=0, y=727, width=16, height=20
+--------------------------------------------------
+ID:          134
+Label:       Window Control Button: Minimize
+Description: Button to minimize the current application window to the taskbar.
+Coordinates: x=1289, y=9, width=18, height=18
+--------------------------------------------------
+ID:          135
+Label:       File Name: _main_.py
+Description: A Python main script file named '_main_.py' listed in the file explorer.
+Coordinates: x=376, y=584, width=54, height=6
+--------------------------------------------------
+ID:          136
+Label:       File Name: init.py
+Description: A Python initialization file named 'init.py' listed in the file explorer.
+Coordinates: x=771, y=266, width=54, height=6
+--------------------------------------------------
+ID:          137
+Label:       Text: scratch script
+Description: Descriptive text indicating a temporary or experimental script.
+Coordinates: x=466, y=312, width=55, height=6
+--------------------------------------------------
+ID:          138
+Label:       Location Text: ny
+Description: Abbreviated text for a location, likely part of a weather or system status widget.
+Coordinates: x=30, y=759, width=37, height=9
+--------------------------------------------------
+ID:          139
+Label:       Text: background command
+Description: Label indicating a command that is running in the background.
+Coordinates: x=1058, y=197, width=48, height=7
+--------------------------------------------------
+ID:          140
+Label:       Text: ActionPredictor
+Description: Text referring to a component or concept named 'ActionPredictor' in the task description.
+Coordinates: x=583, y=535, width=38, height=9
+--------------------------------------------------
+ID:          141
+Label:       Taskbar Icon: Google Chrome
+Description: Icon for the Google Chrome web browser pinned to the taskbar.
+Coordinates: x=629, y=758, width=43, height=8
+--------------------------------------------------
+ID:          142
+Label:       System Tray Icon: Show Hidden Icons
+Description: Up arrow icon to reveal hidden icons in the system tray.
+Coordinates: x=989, y=756, width=29, height=12
+--------------------------------------------------
+ID:          143
+Label:       Weather Information: Temperature
+Description: Displays the current temperature, '27°C'.
+Coordinates: x=214, y=726, width=39, height=9
+--------------------------------------------------
+ID:          144
+Label:       Text: agent_memory
+Description: Text referring to a concept or directory named 'agent_memory' in the task description.
+Coordinates: x=529, y=580, width=27, height=13
+--------------------------------------------------
+ID:          145
+Label:       Dropdown Button: Review
+Description: Button to open a dropdown menu with options related to reviewing tasks or code.
+Coordinates: x=952, y=42, width=19, height=19
+--------------------------------------------------
+ID:          146
+Label:       Taskbar Icon: Microsoft Edge
+Description: Icon for the Microsoft Edge web browser pinned to the taskbar.
+Coordinates: x=758, y=753, width=34, height=11
+--------------------------------------------------
+ID:          147
+Label:       File Name: Soul.md
+Description: A Markdown file named 'Soul.md' mentioned in the task description.
+Coordinates: x=770, y=357, width=55, height=7
+--------------------------------------------------
+ID:          148
+Label:       File Name: sor.py
+Description: A Python script file named 'sor.py', part of a command execution path.
+Coordinates: x=1109, y=321, width=66, height=6
+--------------------------------------------------
+ID:          149
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=9, y=8, width=20, height=20
+--------------------------------------------------
+ID:          150
+Label:       Text: nobot/agent/tool/evolution
+Description: A file path or module name indicating a specific tool within the project structure.
+Coordinates: x=634, y=353, width=45, height=9
+--------------------------------------------------
+ID:          151
+Label:       Menu Item: Go
+Description: Top-level menu item for navigation options within the application.
+Coordinates: x=225, y=10, width=24, height=17
+--------------------------------------------------
+ID:          152
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=858, y=357, width=68, height=6
+--------------------------------------------------
+ID:          153
+Label:       Notifications Icon
+Description: Bell icon indicating system notifications or alerts.
+Coordinates: x=1191, y=701, width=25, height=17
+--------------------------------------------------
+ID:          154
+Label:       File Name: requirements.txt
+Description: A text file named 'requirements.txt' listing project dependencies.
+Coordinates: x=604, y=288, width=72, height=6
+--------------------------------------------------
+ID:          155
+Label:       Folder Icon: utils
+Description: Icon representing the 'utils' directory in the file explorer.
+Coordinates: x=12, y=297, width=20, height=24
+--------------------------------------------------
+ID:          156
+Label:       Git Changes Indicator
+Description: Shows the number of pending Git changes (3 modified, 0 added, 0 deleted).
+Coordinates: x=122, y=727, width=37, height=13
+--------------------------------------------------
+ID:          157
+Label:       Text: AGENTS.
+Description: Part of a file name 'AGENTS.md' in the task description.
+Coordinates: x=814, y=517, width=69, height=7
+--------------------------------------------------
+ID:          158
+Label:       File Name: screen.py
+Description: A Python script file named 'screen.py' mentioned in the task description.
+Coordinates: x=774, y=585, width=70, height=7
+--------------------------------------------------
+ID:          159
+Label:       Taskbar Search Bar
+Description: Input field on the taskbar for searching files, applications, and web content.
+Coordinates: x=394, y=739, width=41, height=12
+--------------------------------------------------
+ID:          160
+Label:       Menu Item: File
+Description: Top-level menu item for file operations in the application.
+Coordinates: x=40, y=9, width=28, height=18
+--------------------------------------------------
+ID:          161
+Label:       Text: MEMORY.md
+Description: A Markdown file mentioned in the task description, likely related to memory management or documentation.
+Coordinates: x=258, y=10, width=30, height=17
+--------------------------------------------------
+ID:          162
+Label:       Text: SYSTEM_CATALOG.md
+Description: A Markdown file mentioned in the task description, likely containing system catalog information.
+Coordinates: x=76, y=9, width=29, height=18
+--------------------------------------------------
+ID:          163
+Label:       Text: resolveIssueTool
+Description: A tool or function name mentioned in the task description, likely for resolving specific issues.
+Coordinates: x=11, y=256, width=23, height=23
+--------------------------------------------------
+ID:          164
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1058, y=263, width=53, height=10
+--------------------------------------------------
+ID:          165
+Label:       Text: VisionAnalyzer
+Description: A component or tool name mentioned in the task description, used for vision analysis.
+Coordinates: x=593, y=448, width=91, height=6
+--------------------------------------------------
+ID:          166
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1043, y=742, width=46, height=12
+--------------------------------------------------
+ID:          167
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1310, y=701, width=33, height=17
+--------------------------------------------------
+ID:          168
+Label:       Text: annotated_screenshots
+Description: Refers to screenshots that have been annotated, mentioned in the task description.
+Coordinates: x=626, y=423, width=71, height=8
+--------------------------------------------------
+ID:          169
+Label:       Text: screen.py
+Description: A file name mentioned in the task description, likely a Python script related to screen operations or capturing.
+Coordinates: x=46, y=748, width=44, height=13
+--------------------------------------------------
+ID:          170
+Label:       Text: ui_agent_engine/src
+Description: A directory path mentioned in the task description, indicating the source folder for the UI agent engine.
+Coordinates: x=532, y=403, width=96, height=6
+--------------------------------------------------
+ID:          171
+Label:       Text: api_vision_processor.py
+Description: A file name mentioned in the task description, likely a Python script for an API vision processor.
+Coordinates: x=443, y=585, width=85, height=7
+--------------------------------------------------
+ID:          172
+Label:       Text: UIMemoryAgent
+Description: A component or agent name mentioned in the task description, related to UI memory management.
+Coordinates: x=498, y=426, width=104, height=6
+--------------------------------------------------
+ID:          173
+Label:       Text: ui_executor.py
+Description: A file name mentioned in the task description, likely a Python script related to UI execution.
+Coordinates: x=9, y=171, width=25, height=25
+--------------------------------------------------
+ID:          174
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=81, y=726, width=35, height=18
+--------------------------------------------------
+ID:          175
+Label:       Text: json_repair
+Description: A module or function name mentioned in the task description, related to repairing JSON data.
+Coordinates: x=182, y=9, width=35, height=18
+--------------------------------------------------
+ID:          176
+Label:       Text: LearningLoop
+Description: A concept or component name mentioned in the task description, likely referring to a learning process or cycle.
+Coordinates: x=779, y=494, width=90, height=7
+--------------------------------------------------
+ID:          177
+Label:       Text: agent.py
+Description: A file name mentioned in the task description, likely a Python script for an agent.
+Coordinates: x=87, y=740, width=49, height=13
+--------------------------------------------------
+ID:          178
+Label:       Text: agent_memory
+Description: A component or concept name mentioned in the task description, related to an agent's memory system.
+Coordinates: x=433, y=608, width=91, height=7
+--------------------------------------------------
+ID:          179
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=628, y=734, width=28, height=23
+--------------------------------------------------
+ID:          180
+Label:       Text: session artifacts
+Description: Refers to data or files generated during a session, mentioned in the task description.
+Coordinates: x=621, y=517, width=111, height=6
+--------------------------------------------------
+ID:          181
+Label:       Text: Implement OpenCV
+Description: A task or action mentioned in the task description, related to integrating OpenCV functionality.
+Coordinates: x=793, y=426, width=111, height=6
+--------------------------------------------------
+ID:          182
+Label:       Text: ActionPredictor
+Description: A component or tool name mentioned in the task description, used for predicting actions.
+Coordinates: x=1262, y=748, width=67, height=10
+--------------------------------------------------
+ID:          183
+Label:       Text: integrate CV matching
+Description: A task or action mentioned in the task description, related to integrating Computer Vision matching capabilities.
+Coordinates: x=518, y=335, width=113, height=6
+--------------------------------------------------
+ID:          184
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=365, y=494, width=98, height=7
+--------------------------------------------------
+ID:          185
+Label:       Text: atlas.j
+Description: Part of a file name, likely 'atlas.json' or similar, mentioned in the task description.
+Coordinates: x=637, y=403, width=98, height=7
+--------------------------------------------------
+ID:          186
+Label:       Text: LLM context
+Description: Refers to the contextual information provided to a Large Language Model, mentioned in the task description.
+Coordinates: x=721, y=733, width=29, height=24
+--------------------------------------------------
+ID:          187
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1139, y=728, width=47, height=15
+--------------------------------------------------
+ID:          188
+Label:       Text: ui_agent_engine/src
+Description: A directory path mentioned in the task description, indicating the source folder for the UI agent engine.
+Coordinates: x=361, y=9, width=34, height=21
+--------------------------------------------------
+ID:          189
+Label:       Text: AGENTS.md
+Description: A Markdown file mentioned in the task description, likely containing information or documentation about agents.
+Coordinates: x=788, y=375, width=72, height=10
+--------------------------------------------------
+ID:          190
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1280, y=727, width=50, height=15
+--------------------------------------------------
+ID:          191
+Label:       Text: t sync_element
+Description: Part of a phrase, likely 'element for dynamic', mentioned in the task description.
+Coordinates: x=730, y=512, width=58, height=13
+--------------------------------------------------
+ID:          192
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1041, y=753, width=51, height=15
+--------------------------------------------------
+ID:          193
+Label:       Text: introspection.py
+Description: A file name mentioned in the task description, likely a Python script for introspection.
+Coordinates: x=369, y=357, width=115, height=7
+--------------------------------------------------
+ID:          194
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=927, y=73, width=68, height=12
+--------------------------------------------------
+ID:          195
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=93, y=750, width=46, height=18
+--------------------------------------------------
+ID:          196
+Label:       Text: anager
+Description: Part of a word, likely 'manager', mentioned in the task description.
+Coordinates: x=711, y=421, width=83, height=10
+--------------------------------------------------
+ID:          197
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1107, y=727, width=33, height=26
+--------------------------------------------------
+ID:          198
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=667, y=734, width=39, height=24
+--------------------------------------------------
+ID:          199
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=928, y=85, width=67, height=14
+--------------------------------------------------
+ID:          200
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1307, y=309, width=12, height=79
+--------------------------------------------------
+ID:          201
+Label:       Completed Task: Consolidate Artifacts & Clean Clutter - Redirect
+Description: A completed task item, indicating the consolidation and redirection of artifacts, along with cleaning up clutter.
+Coordinates: x=553, y=562, width=160, height=6
+--------------------------------------------------
+ID:          202
+Label:       Text: missing
+Description: A keyword or status indicator within a task description, suggesting an absence or requirement.
+Coordinates: x=674, y=244, width=139, height=7
+--------------------------------------------------
+ID:          203
+Label:       Taskbar Icon: Red Circle
+Description: An icon on the taskbar, possibly indicating a notification, error, or active status for an application.
+Coordinates: x=884, y=733, width=41, height=24
+--------------------------------------------------
+ID:          204
+Label:       Menu Item: Terminal
+Description: A menu option in the application's top menu bar, likely for opening or managing integrated terminals.
+Coordinates: x=297, y=9, width=55, height=18
+--------------------------------------------------
+ID:          205
+Label:       Folder Icon: cli
+Description: An icon representing a folder named 'cli' in the file explorer sidebar.
+Coordinates: x=64, y=361, width=55, height=18
+--------------------------------------------------
+ID:          206
+Label:       Explorer View Icon
+Description: An icon in the left sidebar that, when clicked, displays the file explorer view of the current project.
+Coordinates: x=59, y=45, width=52, height=20
+--------------------------------------------------
+ID:          207
+Label:       Menu Item: Selection
+Description: A menu option in the application's top menu bar, likely for selecting text or elements within the editor.
+Coordinates: x=114, y=9, width=59, height=18
+--------------------------------------------------
+ID:          208
+Label:       Text Label: Planning
+Description: A label or category within an input field, possibly indicating the current mode or context for an AI assistant.
+Coordinates: x=1057, y=665, width=63, height=18
+--------------------------------------------------
+ID:          209
+Label:       Folder Icon: vectorstore
+Description: An icon representing a folder named 'vectorstore' in the file explorer sidebar.
+Coordinates: x=64, y=317, width=63, height=18
+--------------------------------------------------
+ID:          210
+Label:       Completed Task: Integrate auto-sync in ActionPredictor
+Description: A completed task item, indicating the successful integration of auto-synchronization functionality within an 'ActionPredictor'.
+Coordinates: x=365, y=562, width=167, height=7
+--------------------------------------------------
+ID:          211
+Label:       Application Icon: Visual Studio Code
+Description: The application icon for Visual Studio Code on the Windows taskbar, indicating the running application.
+Coordinates: x=589, y=727, width=39, height=30
+--------------------------------------------------
+ID:          212
+Label:       Application Icon: File Explorer
+Description: The application icon for File Explorer on the Windows taskbar, used for browsing files and folders.
+Coordinates: x=924, y=731, width=47, height=25
+--------------------------------------------------
+ID:          213
+Label:       Status Indicator: Running...
+Description: A status indicator showing that a process or task is currently active and in progress.
+Coordinates: x=1024, y=521, width=59, height=20
+--------------------------------------------------
+ID:          214
+Label:       Folder Icon: cron
+Description: An icon representing a folder named 'cron' in the file explorer sidebar.
+Coordinates: x=64, y=405, width=69, height=18
+--------------------------------------------------
+ID:          215
+Label:       Completed Task: Verify UIAgent import
+Description: A completed task item in a list, indicating that the verification of a UIAgent import has been performed.
+Coordinates: x=677, y=281, width=96, height=13
+--------------------------------------------------
+ID:          216
+Label:       Folder Icon: skills
+Description: An icon representing a folder named 'skills' in the file explorer sidebar.
+Coordinates: x=64, y=537, width=66, height=19
+--------------------------------------------------
+ID:          217
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=64, y=515, width=70, height=18
+--------------------------------------------------
+ID:          218
+Label:       Text: update AGENTS.md
+Description: Part of a task description, referring to an update action for the 'AGENTS.md' markdown file.
+Coordinates: x=731, y=532, width=86, height=15
+--------------------------------------------------
+ID:          219
+Label:       Text: Purge of legacy browser tool to p
+Description: Part of a task description, indicating an action related to removing old browser tools or components.
+Coordinates: x=576, y=330, width=133, height=10
+--------------------------------------------------
+ID:          220
+Label:       Folder Icon: swarm
+Description: An icon representing a folder named 'swarm' in the file explorer sidebar.
+Coordinates: x=56, y=603, width=80, height=18
+--------------------------------------------------
+ID:          221
+Label:       Editor Tab Title: Walkthrough Refining UI Memory System
+Description: The title of the currently open file or task in the editor tab.
+Coordinates: x=564, y=40, width=182, height=8
+--------------------------------------------------
+ID:          222
+Label:       Horizontal Separator Line
+Description: A visual divider separating different sections or entries within the 'Progress Updates' panel.
+Coordinates: x=1074, y=411, width=133, height=11
+--------------------------------------------------
+ID:          223
+Label:       Text Label: Gemini 3 Flash
+Description: A label or tag within an input field, possibly referring to a specific AI model or feature being used.
+Coordinates: x=1129, y=665, width=92, height=16
+--------------------------------------------------
+ID:          224
+Label:       Folder Icon: session
+Description: An icon representing a folder named 'session' in the file explorer sidebar.
+Coordinates: x=64, y=493, width=84, height=18
+--------------------------------------------------
+ID:          225
+Label:       Weather Widget: 27°C Sunny
+Description: A widget displaying the current weather conditions and temperature (27°C and sunny).
+Coordinates: x=22, y=727, width=55, height=28
+--------------------------------------------------
+ID:          226
+Label:       Folder Icon: scripts
+Description: An icon representing a folder named 'scripts' in the file explorer sidebar.
+Coordinates: x=64, y=471, width=79, height=20
+--------------------------------------------------
+ID:          227
+Label:       File Icon: scheduler.py
+Description: An icon representing a Python file named 'scheduler.py' in the file explorer sidebar.
+Coordinates: x=87, y=228, width=72, height=22
+--------------------------------------------------
+ID:          228
+Label:       Text: init.py
+Description: A file name mentioned within a task description, likely referring to a Python initialization file.
+Coordinates: x=470, y=266, width=228, height=7
+--------------------------------------------------
+ID:          229
+Label:       Completed Task: Add ResolveIssueTool to nanobot/agent/tools/evolution.py
+Description: A completed task item, indicating the addition of a specific tool to a designated file path.
+Coordinates: x=656, y=335, width=230, height=7
+--------------------------------------------------
+ID:          230
+Label:       Folder Icon: config
+Description: An icon representing a folder named 'config' in the file explorer sidebar.
+Coordinates: x=64, y=383, width=79, height=21
+--------------------------------------------------
+ID:          231
+Label:       Text: matching in ActionPredictor
+Description: Part of a task description, referring to a matching process or functionality within an 'ActionPredictor' component.
+Coordinates: x=681, y=443, width=128, height=13
+--------------------------------------------------
+ID:          232
+Label:       Folder Icon: channels
+Description: An icon representing a folder named 'channels' in the file explorer sidebar.
+Coordinates: x=64, y=339, width=93, height=18
+--------------------------------------------------
+ID:          233
+Label:       Folder Icon: nanobot
+Description: An icon representing a folder named 'nanobot' in the file explorer sidebar.
+Coordinates: x=53, y=95, width=94, height=18
+--------------------------------------------------
+ID:          234
+Label:       Dropdown Button: Collapse all
+Description: A UI control to collapse all expandable sections within the 'Progress Updates' panel.
+Coordinates: x=1244, y=109, width=87, height=20
+--------------------------------------------------
+ID:          235
+Label:       Folder Icon: heartbeat
+Description: An icon representing a folder named 'heartbeat' in the file explorer sidebar.
+Coordinates: x=64, y=427, width=98, height=18
+--------------------------------------------------
+ID:          236
+Label:       File Icon: __init__.py
+Description: An icon representing a Python initialization file named '__init__.py' in the file explorer sidebar.
+Coordinates: x=79, y=558, width=84, height=22
+--------------------------------------------------
+ID:          237
+Label:       File Icon: machine_scanner.py
+Description: An icon representing a Python file named 'machine_scanner.py' in the file explorer sidebar.
+Coordinates: x=87, y=184, width=92, height=22
+--------------------------------------------------
+ID:          238
+Label:       Folder Icon: providers
+Description: An icon representing a folder named 'providers' in the file explorer sidebar.
+Coordinates: x=64, y=449, width=97, height=21
+--------------------------------------------------
+ID:          239
+Label:       File Icon: __main__.py
+Description: An icon representing a Python main execution file named '__main__.py' in the file explorer sidebar.
+Coordinates: x=79, y=580, width=95, height=22
+--------------------------------------------------
+ID:          240
+Label:       Button: Review Changes
+Description: A button to initiate a review process for recent modifications or updates.
+Coordinates: x=1222, y=593, width=117, height=18
+--------------------------------------------------
+ID:          241
+Label:       File: agent.py
+Description: Python file named 'agent.py' listed in the project explorer.
+Coordinates: x=87, y=272, width=96, height=22
+--------------------------------------------------
+ID:          242
+Label:       Review Changes Button
+Description: Button to review modifications or updates made to the project.
+Coordinates: x=1031, y=589, width=93, height=23
+--------------------------------------------------
+ID:          243
+Label:       File: skills.py
+Description: Python file named 'skills.py' listed in the project explorer.
+Coordinates: x=87, y=250, width=98, height=22
+--------------------------------------------------
+ID:          244
+Label:       File: memory.py
+Description: Python file named 'memory.py' listed in the project explorer.
+Coordinates: x=87, y=206, width=100, height=22
+--------------------------------------------------
+ID:          245
+Label:       Folder: temp_vision
+Description: Folder named 'temp_vision' listed in the project explorer.
+Coordinates: x=56, y=625, width=111, height=20
+--------------------------------------------------
+ID:          246
+Label:       File: vectorstore.py
+Description: Python file named 'vectorstore.py' listed in the project explorer.
+Coordinates: x=87, y=294, width=109, height=22
+--------------------------------------------------
+ID:          247
+Label:       Navigation Buttons: Back/Forward
+Description: Set of buttons for navigating back and forward through views or history.
+Coordinates: x=914, y=37, width=95, height=27
+--------------------------------------------------
+ID:          248
+Label:       Review Button
+Description: Button to initiate a review process or action.
+Coordinates: x=901, y=71, width=96, height=30
+--------------------------------------------------
+ID:          249
+Label:       Text: Task
+Description: Label indicating the current task or activity being displayed.
+Coordinates: x=356, y=76, width=142, height=22
+--------------------------------------------------
+ID:          250
+Label:       File: loop.py
+Description: Python file named 'loop.py' listed in the project explorer.
+Coordinates: x=87, y=162, width=143, height=22
+--------------------------------------------------
+ID:          251
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=344, y=37, width=117, height=27
+--------------------------------------------------
+ID:          252
+Label:       Command: python api_vision_processor.py
+Description: Command being executed in the console, running a Python script named 'api_vision_processor.py'.
+Coordinates: x=1172, y=303, width=135, height=24
+--------------------------------------------------
+ID:          253
+Label:       Text: Starting Static GUI Labeling Pipeline
+Description: Log message indicating the initiation of a static GUI labeling process.
+Coordinates: x=1151, y=371, width=156, height=24
+--------------------------------------------------
+ID:          254
+Label:       Tab Title: nanobot - Antigravity - Walkthrough
+Description: Title of an open tab, indicating a walkthrough document for 'nanobot - Antigravity'.
+Coordinates: x=588, y=10, width=201, height=20
+--------------------------------------------------
+ID:          255
+Label:       Tab Title: final_live_test.py
+Description: Title of an open tab, indicating a Python test file.
+Coordinates: x=748, y=37, width=157, height=27
+--------------------------------------------------
+ID:          256
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=423, y=509, width=266, height=16
+--------------------------------------------------
+ID:          257
+Label:       Cancel Button
+Description: Button to stop or abort the current operation or process.
+Coordinates: x=1029, y=85, width=309, height=14
+--------------------------------------------------
+ID:          258
+Label:       Section Header: Timeline
+Description: Header for the 'Timeline' view section in the sidebar.
+Coordinates: x=96, y=679, width=245, height=19
+--------------------------------------------------
+ID:          259
+Label:       Console Output Area
+Description: Area displaying command line output, logs, or process messages.
+Coordinates: x=997, y=204, width=10, height=476
+--------------------------------------------------
+ID:          260
+Label:       Section Header: Outline
+Description: Header for the 'Outline' view section in the sidebar.
+Coordinates: x=90, y=657, width=251, height=19
+--------------------------------------------------
+ID:          261
+Label:       Checkbox: Always run
+Description: Checkbox to configure whether a specific process or task should always execute.
+Coordinates: x=1077, y=67, width=251, height=19
+--------------------------------------------------
+ID:          262
+Label:       Text: Planning
+Description: Status indicator showing the current phase or status as 'Planning'.
+Coordinates: x=1029, y=631, width=259, height=19
+--------------------------------------------------
+ID:          263
+Label:       Text: Rule R8 and R1 refinements
+Description: Text describing refinements or updates made to specific rules (R8 and R1).
+Coordinates: x=462, y=372, width=324, height=16
+--------------------------------------------------
+ID:          264
+Label:       VS Code Taskbar Icon
+Description: Icon representing the Visual Studio Code application on the Windows taskbar.
+Coordinates: x=751, y=725, width=132, height=43
+--------------------------------------------------
+ID:          265
+Label:       Text: UI Memory: Long-Term vs Short-Term Separation
+Description: Text describing a concept or task related to UI memory management.
+Coordinates: x=444, y=486, width=360, height=16
+--------------------------------------------------
+ID:          266
+Label:       Search Input Field
+Description: Input field for searching content on the system or within applications.
+Coordinates: x=358, y=730, width=218, height=30
+--------------------------------------------------
+ID:          267
+Label:       Checkbox: Always run
+Description: Checkbox to configure whether a specific process or task should always execute.
+Coordinates: x=1058, y=453, width=261, height=28
+--------------------------------------------------
+ID:          268
+Label:       Windows Start Button
+Description: Button to open the Windows Start menu.
+Coordinates: x=312, y=726, width=271, height=38
+--------------------------------------------------
+ID:          269
+Label:       Unknown/Unlabeled
+Description: N/A
+Coordinates: x=1058, y=177, width=261, height=43
+--------------------------------------------------
+ID:          270
+Label:       Text: Clean stale PROFILE.md / MEMORY.md entries poisoning LLM context
+Description: Text describing a task to clean up outdated profile and memory entries that might affect the LLM context.
+Coordinates: x=362, y=199, width=585, height=21
+--------------------------------------------------
+ID:          271
+Label:       Text: Forget all references to Brave and web_search tool
+Description: Text describing a task to remove references to specific web browsing and search tools.
+Coordinates: x=361, y=131, width=602, height=21
+--------------------------------------------------
+ID:          272
+Label:       Relocate Button
+Description: Button to change the location or path of a resource or file.
+Coordinates: x=1058, y=223, width=261, height=51
+--------------------------------------------------
+ID:          273
+Label:       Git Branch Indicator: main*
+Description: Status indicator showing the currently active Git branch is 'main' with unsaved changes.
+Coordinates: x=176, y=701, width=1007, height=17
+--------------------------------------------------
+ID:          274
+Label:       Text: accurate tool registry
+Description: Text describing a requirement or characteristic of an accurate tool registry.
+Coordinates: x=361, y=154, width=602, height=43
+--------------------------------------------------
+ID:          275
+Label:       Input Field: Ask anything, @ to mention, / for workflows
+Description: Input field for typing commands, questions, or initiating workflows.
+Coordinates: x=1018, y=616, width=341, height=76
+--------------------------------------------------
+ID:          276
+Label:       Menu Item: File
+Description: Top-level menu item for file-related operations in the application.
+Coordinates: x=43, y=37, width=298, height=101
+--------------------------------------------------
+ID:          277
+Label:       Text: File Path
+Description: Text displaying a file path within the console output.
+Coordinates: x=1058, y=285, width=261, height=165
+--------------------------------------------------
+ID:          278
+Label:       Settings Icon
+Description: Icon to access application settings or preferences.
+Coordinates: x=343, y=40, width=667, height=65
+--------------------------------------------------
+ID:          279
+Label:       Text: (pyautogui, desktop_vision)
+Description: Text listing dependencies or tools, specifically 'pyautogui' and 'desktop_vision'.
+Coordinates: x=361, y=222, width=606, height=89
+--------------------------------------------------
+ID:          280
+Label:       Section Title: Progress Updates
+Description: Header for a section displaying updates on ongoing processes or tasks.
+Coordinates: x=1029, y=102, width=309, height=255
+--------------------------------------------------
+ID:          281
+Label:       Progress Update Text
+Description: A status message indicating that the GUI labeling pipeline is currently running to generate annotated screenshots.
+Coordinates: x=1029, y=154, width=309, height=348
+--------------------------------------------------
+ID:          282
+Label:       File Name: loop.py
+Description: A Python file listed in the VS Code Explorer panel under the 'agent' directory of the 'nanobot' project.
+Coordinates: x=43, y=139, width=298, height=515
+--------------------------------------------------
+ID:          283
+Label:       Text: instantiation via scratch script
+Description: A phrase within a task description or log entry, indicating the method of creating or setting up something.
+Coordinates: x=361, y=310, width=608, height=342
+--------------------------------------------------
+ID:          284
+Label:       Text: ui_planner.py and ui_executor.py in user's active workspace
+Description: A phrase within a task description, referring to two specific Python files that are part of the user's current active project.
+Coordinates: x=341, y=108, width=671, height=593
+--------------------------------------------------
+ID:          285
+Label:       File Name: api_vision_processor.py
+Description: A Python script name, visible in the console output, indicating a file being executed as part of the GUI labeling pipeline.
+Coordinates: x=0, y=4, width=1366, height=718
+--------------------------------------------------
